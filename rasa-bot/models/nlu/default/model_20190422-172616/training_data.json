@@ -1,0 +1,2414 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "on"
+      },
+      {
+        "intent": "bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "bye",
+        "text": "stop"
+      },
+      {
+        "intent": "bye",
+        "text": "off"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "Nguyen",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I am Nguyen"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "Le",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "I'm Le"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Jack",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "im Jack"
+      },
+      {
+        "intent": "my_name_is",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Martin Novak",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "My name is Martin Novak"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Ho Chi Minh",
+            "entity": "GPE"
+          }
+        ],
+        "text": "weather in Ho Chi Minh"
+      },
+      {
+        "intent": "get_weather",
+        "text": "how is the weather"
+      },
+      {
+        "intent": "get_weather",
+        "text": "weather forecast"
+      },
+      {
+        "intent": "get_weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "Ho Chi Minh",
+            "entity": "GPE"
+          }
+        ],
+        "text": "what is the weather in Ho Chi Minh"
+      },
+      {
+        "intent": "get_weather",
+        "text": "whats the weather"
+      },
+      {
+        "intent": "about_bach_khoa",
+        "text": "can you tell me about ho chi minh university of technology"
+      },
+      {
+        "intent": "about_bach_khoa",
+        "text": "can you tell me about bach khoa university"
+      },
+      {
+        "intent": "bach_khoa_apply",
+        "text": "how do I apply to university of technology"
+      },
+      {
+        "intent": "bach_khoa_apply",
+        "text": "how to apply to university"
+      },
+      {
+        "intent": "bach_khoa_requirement",
+        "text": "the university requirement"
+      },
+      {
+        "intent": "bach_khoa_requirement",
+        "text": "is there any requirement"
+      },
+      {
+        "intent": "study_program",
+        "text": "what about the study program"
+      },
+      {
+        "intent": "study_program",
+        "text": "all study program"
+      },
+      {
+        "intent": "pre_university",
+        "text": "pre_university"
+      },
+      {
+        "intent": "pre_university",
+        "text": "pre_uni"
+      },
+      {
+        "intent": "pre_university",
+        "text": "tell me about the pre university"
+      },
+      {
+        "intent": "bachelor_overall",
+        "text": "bachelor program"
+      },
+      {
+        "intent": "bachelor_overall",
+        "text": "how many major that the university have"
+      },
+      {
+        "intent": "support_foreign_student",
+        "text": "is there any support for foreign student"
+      },
+      {
+        "intent": "support_foreign_student",
+        "text": "help for abroad student"
+      },
+      {
+        "intent": "dormitory_fee",
+        "text": "how much is dormitory fee"
+      },
+      {
+        "intent": "dormitory_fee",
+        "text": "how much money does the dormitory cost"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "CE overview"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 8,
+            "end": 28,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 14,
+            "end": 34,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 15,
+            "end": 35,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Overview about computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 18,
+            "end": 38,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Information about computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Bachelor of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_overview",
+        "entities": [
+          {
+            "start": 31,
+            "end": 51,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What do I expect to learn from computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 11,
+            "end": 31,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Summary of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Program summary of ce"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 13,
+            "end": 33,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Detail about computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Duration of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 45,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of years to study computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 33,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of credits for studying ce"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 42,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many credits does computer engineering require"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 45,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Medium of instruction of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 55,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Which languague do I need to study computer engineering"
+      },
+      {
+        "intent": "computer_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 22,
+            "end": 42,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Career opportunity of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about career opportunity of ce"
+      },
+      {
+        "intent": "computer_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 56,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What will I be doing after studying computer engineering"
+      },
+      {
+        "intent": "computer_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What can I do after CE"
+      },
+      {
+        "intent": "computer_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 47,
+            "end": 67,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "what kind of job will I be doing when I finish computer engineering"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Study abroad ce"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 24,
+            "end": 44,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Transfer opportunity of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 35,
+            "end": 55,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to go abroad while studying computer engineering"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 32,
+            "end": 52,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What about transfer learning of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 12,
+            "end": 32,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Can I study computer engineering in another country"
+      },
+      {
+        "intent": "computer_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Do I have to study CE in Vietnam"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer engineering curriculum"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer engineering schedule"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "CE timetable"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 54,
+            "end": 74,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many subjects will I have to learn if I enroll in computer engineering"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A detail study plan of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 49,
+            "end": 69,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to know every subject in each semester of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A full list of subjects in ce"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer engineering cost"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "ce payment"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 35,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "tuition fee of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 9,
+            "end": 29,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Price of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 34,
+            "end": 54,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is the aunual tuition fee of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How much money does it cost to study CE"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 35,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Scholarship of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 41,
+            "end": 61,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Is there any scholarship if I do good in computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 29,
+            "end": 49,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Any reward for doing well in computer engineering"
+      },
+      {
+        "intent": "computer_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Prize for studying CE"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 20,
+            "end": 40,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Admission period of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submit period of ce"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 19,
+            "end": 39,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submission time of computer engineering"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 51,
+            "end": 71,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When do I submit my application if I want to study computer engineering"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 21,
+            "end": 41,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When can I apply for computer engineering"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 18,
+            "end": 38,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "acceptance period computer engineering"
+      },
+      {
+        "intent": "computer_engineering_admission_period",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "computer engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "admittance time CE"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "CS overview"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Overview about computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Information about computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Bachelor of computer science"
+      },
+      {
+        "intent": "computer_science_overview",
+        "entities": [
+          {
+            "start": 31,
+            "end": 47,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What do I expect to learn from computer science"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 11,
+            "end": 28,
+            "value": "computer scienceg",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Summary of computer scienceg"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Program summary of cs"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Detail about computer science"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "computer scienceg",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Duration of computer scienceg"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of years to study computer science"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 33,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of credits for studying cs"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many credits does computer science require"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Medium of instruction of computer science"
+      },
+      {
+        "intent": "computer_science_summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Which languague do I need to study computer science"
+      },
+      {
+        "intent": "computer_science_career_opportunity",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Career opportunity of computer science"
+      },
+      {
+        "intent": "computer_science_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about career opportunity of cs"
+      },
+      {
+        "intent": "computer_science_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What will I be doing after studying computer science"
+      },
+      {
+        "intent": "computer_science_career_opportunity",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What can I do after CS"
+      },
+      {
+        "intent": "computer_science_career_opportunity",
+        "entities": [
+          {
+            "start": 47,
+            "end": 63,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "what kind of job will I be doing when I finish computer science"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Study abroad cs"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Transfer opportunity of computer science"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to go abroad while studying computer science"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 32,
+            "end": 48,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What about transfer learning of computer science"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Can I study computer science in another country"
+      },
+      {
+        "intent": "computer_science_transfer_opportunity",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Do I have to study CS in Vietnam"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer science curriculum"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer science schedule"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "CS timetable"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 54,
+            "end": 70,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many subjects will I have to learn if I enroll in computer science"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A detail study plan of computer science"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 49,
+            "end": 65,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to know every subject in each semester of computer science"
+      },
+      {
+        "intent": "computer_science_curriculum_structure",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A full list of subjects in cs"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "computer science cost"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "cs payment"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "tuition fee of computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Price of computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 34,
+            "end": 50,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is the aunual tuition fee of computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How much money does it cost to study CS"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Scholarship of computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Is there any scholarship if I do good in computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 29,
+            "end": 45,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Any reward for doing well in computer science"
+      },
+      {
+        "intent": "computer_science_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Prize for studying CS"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Admission period of computer science"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submit period of cs"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submission time of computer science"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 51,
+            "end": 67,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When do I submit my application if I want to study computer science"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 21,
+            "end": 37,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When can I apply for computer science"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "acceptance period computer science"
+      },
+      {
+        "intent": "computer_science_admission_period",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "computer science",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "admittance time CS"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "FE overview"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 14,
+            "end": 30,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Overview about food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Information about food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Bachelor of food engineering"
+      },
+      {
+        "intent": "food_engineering_overview",
+        "entities": [
+          {
+            "start": 31,
+            "end": 47,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What do I expect to learn from food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Summary of food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Program summary of FE"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 13,
+            "end": 29,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Detail about food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Duration of food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of years to study food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 31,
+            "end": 33,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Number of credits for studying fe"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many credits does food engineering require"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 25,
+            "end": 41,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Medium of instruction of food engineering"
+      },
+      {
+        "intent": "food_engineering_summary",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Which languague do I need to study food engineering"
+      },
+      {
+        "intent": "food_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Career opportunity of food engineering"
+      },
+      {
+        "intent": "food_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 38,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Tell me about career opportunity of fe"
+      },
+      {
+        "intent": "food_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What will I be doing after studying food engineering"
+      },
+      {
+        "intent": "food_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 20,
+            "end": 22,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What can I do after FE"
+      },
+      {
+        "intent": "food_engineering_career_opportunity",
+        "entities": [
+          {
+            "start": 47,
+            "end": 63,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "what kind of job will I be doing when I finish food engineering"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Study abroad fe"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 24,
+            "end": 40,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Transfer opportunity of food engineering"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 35,
+            "end": 51,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to go abroad while studying food engineering"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 32,
+            "end": 48,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What about transfer learning of food engineering"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 12,
+            "end": 28,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Can I study food engineering in another country"
+      },
+      {
+        "intent": "food_engineering_transfer_opportunity",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Do I have to study FE in Vietnam"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "food engineering curriculum"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "food engineering schedule"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "FE timetable"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 54,
+            "end": 70,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How many subjects will I have to learn if I enroll in food engineering"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A detail study plan of food engineering"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 49,
+            "end": 65,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "I want to know every subject in each semester of food engineering"
+      },
+      {
+        "intent": "food_engineering_curriculum_structure",
+        "entities": [
+          {
+            "start": 27,
+            "end": 29,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "A full list of subjects in fe"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "food engineering cost"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "fe payment"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "tuition fee of food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Price of food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 34,
+            "end": 50,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "What is the aunual tuition fee of food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 37,
+            "end": 39,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "How much money does it cost to study FE"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 15,
+            "end": 31,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Scholarship of food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Is there any scholarship if I do good in food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 29,
+            "end": 45,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Any reward for doing well in food engineering"
+      },
+      {
+        "intent": "food_engineering_tuition_fee_and_scholarship",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Prize for studying FE"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Admission period of food engineering"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 17,
+            "end": 19,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submit period of fe"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 19,
+            "end": 35,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "Submission time of food engineering"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 51,
+            "end": 67,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When do I submit my application if I want to study food engineering"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 21,
+            "end": 37,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "When can I apply for food engineering"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "acceptance period food engineering"
+      },
+      {
+        "intent": "food_engineering_admission_period",
+        "entities": [
+          {
+            "start": 16,
+            "end": 18,
+            "value": "food engineering",
+            "entity": "14_majors"
+          }
+        ],
+        "text": "admittance time FE"
+      },
+      {
+        "intent": "more_overview",
+        "text": "How about the overview"
+      },
+      {
+        "intent": "more_overview",
+        "text": "Overview"
+      },
+      {
+        "intent": "more_overview",
+        "text": "more about the overview"
+      },
+      {
+        "intent": "more_overview",
+        "text": "Tell me the overview"
+      },
+      {
+        "intent": "more_overview",
+        "text": "I want to know the overall"
+      },
+      {
+        "intent": "more_summary",
+        "text": "How about the summary"
+      },
+      {
+        "intent": "more_summary",
+        "text": "Summary"
+      },
+      {
+        "intent": "more_summary",
+        "text": "Tell me the summary"
+      },
+      {
+        "intent": "more_summary",
+        "text": "Tell me more about the summary"
+      },
+      {
+        "intent": "more_summary",
+        "text": "I want to know the summary"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "Admission period"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "admission"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "submission time"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "submit"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "Tell me more about the admission time"
+      },
+      {
+        "intent": "more_admission_period",
+        "text": "I want to know the entering time"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "How about the admission career opportunity"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "Career opportunity"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "Tell me the career opportunity"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "Tell me more about the career opportunity"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "I want to know the career opportunity"
+      },
+      {
+        "intent": "more_career_opportunity",
+        "text": "I want to know the career"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "the curriculum"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "the schedule"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "How about the admission curriculum structure"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "Curriculum structure"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "Timetable"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "Tell me the curriculum_structure"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "Tell me more about the timetable"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "I want to know the curriculum_structure"
+      },
+      {
+        "intent": "more_curriculum_structure",
+        "text": "I want to know the timetable"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "How about the admission transfer_opportunity"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "Transfer opportunity"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "Transfer"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "Tell me the transfer opportunity"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "Tell me more about the transfer opportunity"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "I want to know the transfer opportunity"
+      },
+      {
+        "intent": "more_transfer_opportunity",
+        "text": "I want to know the transfer"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "what about the fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "tell me about the fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "money"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "cost"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "How about the tuition fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "Tuition fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "Tell me the price"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "Tell me more about the tuition fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "I want to know the cost"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "I want to know the fee"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "scholarship"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "reward"
+      },
+      {
+        "intent": "more_tuition_fee_and_scholarship",
+        "text": "prize"
+      },
+      {
+        "intent": "more",
+        "text": "more"
+      },
+      {
+        "intent": "more",
+        "text": "tell me more"
+      },
+      {
+        "intent": "more",
+        "text": "more information"
+      },
+      {
+        "intent": "more_who",
+        "text": "who"
+      },
+      {
+        "intent": "more_who",
+        "text": "who can sutdy"
+      },
+      {
+        "intent": "more_who",
+        "text": "who is it"
+      },
+      {
+        "intent": "more_what",
+        "text": "what"
+      },
+      {
+        "intent": "more_what",
+        "text": "what is it"
+      },
+      {
+        "intent": "more_what",
+        "text": "what the"
+      },
+      {
+        "intent": "more_when",
+        "text": "when"
+      },
+      {
+        "intent": "more_when",
+        "text": "when is"
+      },
+      {
+        "intent": "more_when",
+        "text": "when will"
+      },
+      {
+        "intent": "more_where",
+        "text": "where"
+      },
+      {
+        "intent": "more_where",
+        "text": "where is"
+      },
+      {
+        "intent": "more_where",
+        "text": "where can I"
+      },
+      {
+        "intent": "more_why",
+        "text": "why"
+      },
+      {
+        "intent": "more_why",
+        "text": "why is it"
+      },
+      {
+        "intent": "more_why",
+        "text": "why do I"
+      },
+      {
+        "intent": "more_how",
+        "text": "how"
+      },
+      {
+        "intent": "more_how",
+        "text": "how is it"
+      },
+      {
+        "intent": "more_how",
+        "text": "how the"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "computer engineering",
+        "synonyms": [
+          "CE",
+          "ce",
+          "c.e",
+          "C.E",
+          "Ce",
+          "computer engineer"
+        ]
+      },
+      {
+        "value": "computer science",
+        "synonyms": [
+          "CS",
+          "cs",
+          "c.s",
+          "C.S",
+          "Cs"
+        ]
+      },
+      {
+        "value": "food engineering",
+        "synonyms": [
+          "FE",
+          "fe"
+        ]
+      }
+    ]
+  }
+}

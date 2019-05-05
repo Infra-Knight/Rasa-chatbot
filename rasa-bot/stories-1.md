@@ -1,0 +1,467 @@
+## study_program_overall
+* study_program_overall
+	- utter_study_program_overall
+
+## study_program_overall_more
+* study_program_overall_more
+	- utter_study_program_overall_more
+
+## bachelor_overall
+* bachelor_overall
+	- utter_bachelor_overall
+
+## bachelor_definition
+* bachelor_definition
+	- utter_bachelor_definition
+
+## bachelor_degree
+* bachelor_degree
+	- utter_bachelor_degree
+
+## bachelor_program
+* bachelor_program
+	- utter_bachelor_program
+
+## bachelor_submission
+* bachelor_submission
+	- utter_bachelor_submission
+
+## bachelor_requirement
+* bachelor_requirement
+	- utter_bachelor_requirement
+
+## automotive_engineering_overview
+* automotive_engineering_overview
+	- utter_automotive_engineering_overview
+
+## automotive_engineering_summary
+* automotive_engineering_summary
+	- utter_automotive_engineering_summary
+
+## automotive_engineering_admission_period
+* automotive_engineering_admission_period
+	- utter_automotive_engineering_admission_period
+
+## automotive_engineering_career_opportunity
+* automotive_engineering_career_opportunity
+	- utter_automotive_engineering_career_opportunity
+
+## automotive_engineering_curriculum_structure
+* automotive_engineering_curriculum_structure
+	- utter_automotive_engineering_curriculum_structure
+
+## automotive_engineering_transfer_opportunity
+* automotive_engineering_transfer_opportunity
+	- utter_automotive_engineering_transfer_opportunity
+
+## automotive_engineering_tuition_fee_and_scholarship:
+* automotive_engineering_tuition_fee_and_scholarship
+	- utter_automotive_engineering_tuition_fee_and_scholarship
+
+## business_administration_overview
+* business_administration_overview
+	- utter_business_administration_overview
+
+## business_administration_summary
+* business_administration_summary
+	- utter_business_administration_summary
+
+## business_administration_admission_period
+* business_administration_admission_period
+	- utter_business_administration_admission_period
+
+## business_administration_career_opportunity
+* business_administration_career_opportunity
+	- utter_business_administration_career_opportunity
+
+## business_administration_curriculum_structure
+* business_administration_curriculum_structure
+	- utter_business_administration_curriculum_structure
+
+## business_administration_transfer_opportunity
+* business_administration_transfer_opportunity
+	- utter_business_administration_transfer_opportunity
+
+## business_administration_tuition_fee_and_scholarship:
+* business_administration_tuition_fee_and_scholarship
+	- utter_business_administration_tuition_fee_and_scholarship
+
+## chemical_engineering_overview
+* chemical_engineering_overview
+	- utter_chemical_engineering_overview
+
+## chemical_engineering_summary
+* chemical_engineering_summary
+	- utter_chemical_engineering_summary
+
+## chemical_engineering_admission_period
+* chemical_engineering_admission_period
+	- utter_chemical_engineering_admission_period
+
+## chemical_engineering_career_opportunity
+* chemical_engineering_career_opportunity
+	- utter_chemical_engineering_career_opportunity
+
+## chemical_engineering_curriculum_structure
+* chemical_engineering_curriculum_structure
+	- utter_chemical_engineering_curriculum_structure
+
+## chemical_engineering_transfer_opportunity
+* chemical_engineering_transfer_opportunity
+	- utter_chemical_engineering_transfer_opportunity
+
+## chemical_engineering_tuition_fee_and_scholarship:
+* chemical_engineering_tuition_fee_and_scholarship
+	- utter_chemical_engineering_tuition_fee_and_scholarship
+
+## civil_engineering_overview
+* civil_engineering_overview
+	- utter_civil_engineering_overview
+
+## civil_engineering_summary
+* civil_engineering_summary
+	- utter_civil_engineering_summary
+
+## civil_engineering_admission_period
+* civil_engineering_admission_period
+	- utter_civil_engineering_admission_period
+
+## civil_engineering_career_opportunity
+* civil_engineering_career_opportunity
+	- utter_civil_engineering_career_opportunity
+
+## civil_engineering_curriculum_structure
+* civil_engineering_curriculum_structure
+	- utter_civil_engineering_curriculum_structure
+
+## civil_engineering_transfer_opportunity
+* civil_engineering_transfer_opportunity
+	- utter_civil_engineering_transfer_opportunity
+
+## civil_engineering_tuition_fee_and_scholarship:
+* civil_engineering_tuition_fee_and_scholarship
+	- utter_civil_engineering_tuition_fee_and_scholarship
+
+## computer_science_overview
+* computer_science_overview
+	- utter_computer_science_overview
+
+## computer_science_summary
+* computer_science_summary
+	- utter_computer_science_summary
+
+## computer_science_admission_period
+* computer_science_admission_period
+	- utter_computer_science_admission_period
+
+## computer_science_career_opportunity
+* computer_science_career_opportunity
+	- utter_computer_science_career_opportunity
+
+## computer_science_curriculum_structure
+* computer_science_curriculum_structure
+	- utter_computer_science_curriculum_structure
+
+## computer_science_transfer_opportunity
+* computer_science_transfer_opportunity
+	- utter_computer_science_transfer_opportunity
+
+## computer_science_tuition_fee_and_scholarship:
+* computer_science_tuition_fee_and_scholarship
+	- utter_computer_science_tuition_fee_and_scholarship
+
+## computer_engineering_0
+* computer_engineering_summary
+    - utter_computer_engineering_summary
+* computer_engineering_overview
+    - utter_computer_engineering_overview
+* computer_engineering_admission_period
+    - utter_computer_engineering_admission_period
+* computer_engineering_career_opportunity
+    - utter_computer_engineering_career_opportunity
+* computer_engineering_curriculum_structure
+    - utter_computer_engineering_curriculum_structure
+* computer_engineering_transfer_opportunity
+    - utter_computer_engineering_transfer_opportunity
+* computer_engineering_tuition_fee_and_scholarship
+    - utter_computer_engineering_tuition_fee_and_scholarship
+            
+## computer_engineering_1
+* computer_engineering_summary
+    - utter_computer_engineering_summary
+* computer_engineering_tuition_fee_and_scholarship
+    - utter_computer_engineering_tuition_fee_and_scholarship
+
+## computer_engineering_overview
+* computer_engineering_overview
+	- utter_computer_engineering_overview
+
+## computer_engineering_summary
+* computer_engineering_summary
+	- utter_computer_engineering_summary
+
+## computer_engineering_admission_period
+* computer_engineering_admission_period
+	- utter_computer_engineering_admission_period
+
+## computer_engineering_career_opportunity
+* computer_engineering_career_opportunity
+	- utter_computer_engineering_career_opportunity
+
+## computer_engineering_curriculum_structure
+* computer_engineering_curriculum_structure
+	- utter_computer_engineering_curriculum_structure
+
+## computer_engineering_transfer_opportunity
+* computer_engineering_transfer_opportunity
+	- utter_computer_engineering_transfer_opportunity
+
+## computer_engineering_tuition_fee_and_scholarship:
+* computer_engineering_tuition_fee_and_scholarship
+	- utter_computer_engineering_tuition_fee_and_scholarship
+
+## electrical_electronic_engineering_overview
+* electrical_electronic_engineering_overview
+	- utter_electrical_electronic_engineering_overview
+
+## electrical_electronic_engineering_summary
+* electrical_electronic_engineering_summary
+	- utter_electrical_electronic_engineering_summary
+
+## electrical_electronic_engineering_admission_period
+* electrical_electronic_engineering_admission_period
+	- utter_electrical_electronic_engineering_admission_period
+d
+## electrical_electronic_engineering_career_opportunity
+* electrical_electronic_engineering_career_opportunity
+	- utter_electrical_electronic_engineering_career_opportunity
+
+## electrical_electronic_engineering_curriculum_structure
+* electrical_electronic_engineering_curriculum_structure
+	- utter_electrical_electronic_engineering_curriculum_structure
+
+## electrical_electronic_engineering_transfer_opportunity
+* electrical_electronic_engineering_transfer_opportunity
+	- utter_electrical_electronic_engineering_transfer_opportunity
+
+## electrical_electronic_engineering_tuition_fee_and_scholarship:
+* electrical_electronic_engineering_tuition_fee_and_scholarship
+	- utter_electrical_electronic_engineering_tuition_fee_and_scholarship
+
+## environmental_engineering_overview
+* environmental_engineering_overview
+	- utter_environmental_engineering_overview
+
+## environmental_engineering_summary
+* environmental_engineering_summary
+	- utter_environmental_engineering_summary
+
+## environmental_engineering_admission_period
+* environmental_engineering_admission_period
+	- utter_environmental_engineering_admission_period
+
+## environmental_engineering_career_opportunity
+* environmental_engineering_career_opportunity
+	- utter_environmental_engineering_career_opportunity
+
+## environmental_engineering_curriculum_structure
+* environmental_engineering_curriculum_structure
+	- utter_environmental_engineering_curriculum_structure
+
+## environmental_engineering_transfer_opportunity
+* environmental_engineering_transfer_opportunity
+	- utter_environmental_engineering_transfer_opportunity
+
+## environmental_engineering_tuition_fee_and_scholarship:
+* environmental_engineering_tuition_fee_and_scholarship
+	- utter_environmental_engineering_tuition_fee_and_scholarship
+
+## environmental_and_technology_management_overview
+* environmental_and_technology_management_overview
+	- utter_environmental_and_technology_management_overview
+
+## environmental_and_technology_management_summary
+* environmental_and_technology_management_summary
+	- utter_environmental_and_technology_management_summary
+
+## environmental_and_technology_management_admission_period
+* environmental_and_technology_management_admission_period
+	- utter_environmental_and_technology_management_admission_period
+
+## environmental_and_technology_management_career_opportunity
+* environmental_and_technology_management_career_opportunity
+	- utter_environmental_and_technology_management_career_opportunity
+
+## environmental_and_technology_management_curriculum_structure
+* environmental_and_technology_management_curriculum_structure
+	- utter_environmental_and_technology_management_curriculum_structure
+
+## environmental_and_technology_management_transfer_opportunity
+* environmental_and_technology_management_transfer_opportunity
+	- utter_environmental_and_technology_management_transfer_opportunity
+
+## environmental_and_technology_management_tuition_fee_and_scholarship:
+* environmental_and_technology_management_tuition_fee_and_scholarship
+	- utter_environmental_and_technology_management_tuition_fee_and_scholarship
+
+## food_engineering
+* food_engineering_summary
+	- utter_food_engineering_summary
+* food_engineering_overview
+	- utter_food_engineering_overview
+* food_engineering_admission_period
+	- utter_food_engineering_admission_period
+* food_engineering_career_opportunity
+	- utter_food_engineering_career_opportunity
+* food_engineering_curriculum_structure
+	- utter_food_engineering_curriculum_structure
+* food_engineering_transfer_opportunity
+	- utter_food_engineering_transfer_opportunity
+* food_engineering_tuition_fee_and_scholarship
+	- utter_food_engineering_tuition_fee_and_scholarship
+    
+## food_engineering_1
+* food_engineering_summary
+    - utter_food_engineering_summary
+* food_engineering_tuition_fee_and_scholarship
+    - utter_food_engineering_tuition_fee_and_scholarship
+
+## food_engineering_overview
+* food_engineering_overview
+	- utter_food_engineering_overview
+
+## food_engineering_summary
+* food_engineering_summary
+	- utter_food_engineering_summary
+
+## food_engineering_admission_period
+* food_engineering_admission_period
+	- utter_food_engineering_admission_period
+
+## food_engineering_career_opportunity
+* food_engineering_career_opportunity
+	- utter_food_engineering_career_opportunity
+
+## food_engineering_curriculum_structure
+* food_engineering_curriculum_structure
+	- utter_food_engineering_curriculum_structure
+
+## food_engineering_transfer_opportunity
+* food_engineering_transfer_opportunity
+	- utter_food_engineering_transfer_opportunity
+
+## food_engineering_tuition_fee_and_scholarship:
+* food_engineering_tuition_fee_and_scholarship
+	- utter_food_engineering_tuition_fee_and_scholarship
+
+## mechanical_engineering_overview
+* mechanical_engineering_overview
+	- utter_mechanical_engineering_overview
+
+## mechanical_engineering_summary
+* mechanical_engineering_summary
+	- utter_mechanical_engineering_summary
+
+## mechanical_engineering_admission_period
+* mechanical_engineering_admission_period
+	- utter_mechanical_engineering_admission_period
+
+## mechanical_engineering_career_opportunity
+* mechanical_engineering_career_opportunity
+	- utter_mechanical_engineering_career_opportunity
+
+## mechanical_engineering_curriculum_structure
+* mechanical_engineering_curriculum_structure
+	- utter_mechanical_engineering_curriculum_structure
+
+## mechanical_engineering_transfer_opportunity
+* mechanical_engineering_transfer_opportunity
+	- utter_mechanical_engineering_transfer_opportunity
+
+## mechanical_engineering_tuition_fee_and_scholarship:
+* mechanical_engineering_tuition_fee_and_scholarship
+	- utter_mechanical_engineering_tuition_fee_and_scholarship
+
+## mechatronic_engineering_overview
+* mechatronic_engineering_overview
+	- utter_mechatronic_engineering_overview
+
+## mechatronic_engineering_summary
+* mechatronic_engineering_summary
+cter_mechatronic_engineering_summary
+
+## mechatronic_engineering_admission_period
+* mechatronic_engineering_admission_period
+	- utter_mechatronic_engineering_admission_period
+
+## mechatronic_engineering_career_opportunity
+* mechatronic_engineering_career_opportunity
+	- utter_mechatronic_engineering_career_opportunity
+
+## mechatronic_engineering_curriculum_structure
+* mechatronic_engineering_curriculum_structure
+	- utter_mechatronic_engineering_curriculum_structure
+
+## mechatronic_engineering_transfer_opportunity
+* mechatronic_engineering_transfer_opportunity
+	- utter_mechatronic_engineering_transfer_opportunity
+
+## mechatronic_engineering_tuition_fee_and_scholarship:
+* mechatronic_engineering_tuition_fee_and_scholarship
+	- utter_mechatronic_engineering_tuition_fee_and_scholarship
+
+## petroleum_engineering_overview
+* petroleum_engineering_overview
+	- utter_petroleum_engineering_overview
+
+## petroleum_engineering_summary
+* petroleum_engineering_summary
+	- utter_petroleum_engineering_summary
+
+## petroleum_engineering_admission_period
+* petroleum_engineering_admission_period
+	- utter_petroleum_engineering_admission_period
+
+## petroleum_engineering_career_opportunity
+* petroleum_engineering_career_opportunity
+	- utter_petroleum_engineering_career_opportunity
+
+## petroleum_engineering_curriculum_structure
+* petroleum_engineering_curriculum_structure
+	- utter_petroleum_engineering_curriculum_structure
+
+## petroleum_engineering_transfer_opportunity
+* petroleum_engineering_transfer_opportunity
+	- utter_petroleum_engineering_transfer_opportunity
+
+## petroleum_engineering_tuition_fee_and_scholarship:
+* petroleum_engineering_tuition_fee_and_scholarship
+	- utter_petroleum_engineering_tuition_fee_and_scholarship
+
+## transportation_engineering_overview
+* transportation_engineering_overview
+	- utter_transportation_engineering_overview
+
+## transportation_engineering_summary
+* transportation_engineering_summary
+	- utter_transportation_engineering_summary
+
+## transportation_engineering_admission_period
+* transportation_engineering_admission_period
+	- utter_transportation_engineering_admission_period
+
+## transportation_engineering_career_opportunity
+* transportation_engineering_career_opportunity
+	- utter_transportation_engineering_career_opportunity
+
+## transportation_engineering_curriculum_structure
+* transportation_engineering_curriculum_structure
+	- utter_transportation_engineering_curriculum_structure
+
+## transportation_engineering_transfer_opportunity
+* transportation_engineering_transfer_opportunity
+	- utter_transportation_engineering_transfer_opportunity
+
+## transportation_engineering_tuition_fee_and_scholarship:
+* transportation_engineering_tuition_fee_and_scholarship
+	- utter_transportation_engineering_tuition_fee_and_scholarship

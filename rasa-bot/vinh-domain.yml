@@ -1,0 +1,42 @@
+intents:
+ - greet
+ - goodbye
+ - myname_jack
+ - tell_me_jack
+ - myname_abc
+ - tell_me_abc
+ - ask
+ - ans_yes
+ - ans_no
+
+templates:
+  utter_greet:
+    - Hello, how can I help you.
+  utter_goodbye:
+    - Talk to you later.
+    - Bye bye :( 
+  utter_name:
+    - May I know your name?
+  utter_any_other_query:
+    - text: Let me know do you have any other query?
+      buttons:
+      - title: "Yes"
+        payload: "/ans_yes"
+      - title: "No"
+        payload: "/ans_no"
+  utter_inform_jack:
+    - text: Your name is jack.
+  utter_inform_abc:
+    - text: Your name is abc.
+  utter_default:
+    - text: Dahell, say it again!
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_inform_jack
+ - utter_inform_abc
+ - utter_name
+ - utter_default
+ - utter_any_other_query
+ 

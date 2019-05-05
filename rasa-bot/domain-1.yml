@@ -1,0 +1,816 @@
+intents:
+  - study_program_overall
+  - study_program_overall_more
+  - bachelor_overall
+  - bachelor_definition
+  - bachelor_degree
+  - bachelor_program
+  - bachelor_submission
+  - bachelor_requirement
+  - automotive_engineering_summary
+  - automotive_engineering_overview
+  - automotive_engineering_admission_period
+  - automotive_engineering_career_opportunity
+  - automotive_engineering_curriculum_structure
+  - automotive_engineering_tuition_fee_and_scholarship
+  - automotive_engineering_transfer_opportunity
+  - business_administration_summary
+  - business_administration_overview
+  - business_administration_admission_period
+  - business_administration_career_opportunity
+  - business_administration_transfer_opportunity
+  - business_administration_curriculum_structure
+  - business_administration_tuition_fee_and_scholarship
+  - chemical_engineering_overview
+  - chemical_engineering_summary
+  - chemical_engineering_admission_period
+  - chemical_engineering_career_opportunity
+  - chemical_engineering_transfer_opportunity
+  - chemical_engineering_tuition_fee_and_scholarship
+  - chemical_engineering_curriculum_structure
+  - civil_engineering_summary
+  - civil_engineering_overview
+  - civil_engineering_admission_period
+  - civil_engineering_career_opportunity
+  - civil_engineering_curriculum_structure
+  - civil_engineering_transfer_opportunity
+  - civil_engineering_tuition_fee_and_scholarship
+  - computer_science_summary
+  - computer_science_overview
+  - computer_science_admission_period
+  - computer_science_career_opportunity
+  - computer_science_curriculum_structure
+  - computer_science_transfer_opportunity
+  - computer_science_tuition_fee_and_scholarship
+  - computer_engineering_summary
+  - computer_engineering_overview
+  - computer_engineering_admission_period
+  - computer_engineering_career_opportunity
+  - computer_engineering_curriculum_structure
+  - computer_engineering_transfer_opportunity
+  - computer_engineering_tuition_fee_and_scholarship
+  - electrical_electronic_engineering_summary
+  - electrical_electronic_engineering_overview
+  - electrical_electronic_engineering_admission_period
+  - electrical_electronic_engineering_career_opportunity
+  - electrical_electronic_engineering_transfer_opportunity
+  - electrical_electronic_engineering_tuition_fee_and_scholarship
+  - electrical_electronic_engineering_curriculum_structure
+  - environmental_engineering_summary
+  - environmental_engineering_overview
+  - environmental_engineering_admission_period
+  - environmental_engineering_career_opportunity
+  - environmental_engineering_curriculum_structure
+  - environmental_engineering_transfer_opportunity
+  - environmental_engineering_tuition_fee_and_scholarship
+  - environmental_and_technology_management_summary
+  - environmental_and_technology_management_overview
+  - environmental_and_technology_management_admission_period
+  - environmental_and_technology_management_career_opportunity
+  - environmental_and_technology_management_curriculum_structure
+  - environmental_and_technology_management_transfer_opportunity
+  - environmental_and_technology_management_tuition_fee_and_scholarship
+  - food_engineering_summary
+  - food_engineering_overview
+  - food_engineering_admission_period
+  - food_engineering_career_opportunity
+  - food_engineering_curriculum_structure
+  - food_engineering_transfer_opportunity
+  - food_engineering_tuition_fee_and_scholarship
+  - mechanical_engineering_summary
+  - mechanical_engineering_overview
+  - mechanical_engineering_admission_period
+  - mechanical_engineering_career_opportunity
+  - mechanical_engineering_curriculum_structure
+  - mechanical_engineering_tuition_fee_and_scholarship
+  - mechanical_engineering_transfer_opportunity
+  - mechatronic_engineering_summary
+  - mechatronic_engineering_overview
+  - mechatronic_engineering_admission_period
+  - mechatronic_engineering_career_opportunity
+  - mechatronic_engineering_curriculum_structure
+  - mechatronic_engineering_transfer_opportunity
+  - mechatronic_engineering_tuition_fee_and_scholarship
+  - petroleum_engineering_summary
+  - petroleum_engineering_overview
+  - petroleum_engineering_admission_period
+  - petroleum_engineering_career_opportunity
+  - petroleum_engineering_curriculum_structure
+  - petroleum_engineering_transfer_opportunity
+  - petroleum_engineering_tuition_fee_and_scholarship
+  - transportation_engineering_summary
+  - transportation_engineering_overview
+  - transportation_engineering_admission_period
+  - transportation_engineering_career_opportunity
+  - transportation_engineering_curriculum_structure
+  - transportation_engineering_transfer_opportunity
+  - transportation_engineering_tuition_fee_and_scholarship
+
+actions:
+  - utter_study_program_overall
+  - utter_study_program_overall_more
+  - utter_bachelor_overall
+  - utter_bachelor_definition
+  - utter_bachelor_degree
+  - utter_bachelor_program
+  - utter_bachelor_submission
+  - utter_bachelor_requirement  
+  - utter_automotive_engineering_summary
+  - utter_automotive_engineering_overview
+  - utter_automotive_engineering_admission_period
+  - utter_automotive_engineering_career_opportunity
+  - utter_automotive_engineering_curriculum_structure
+  - utter_automotive_engineering_tuition_fee_and_scholarship
+  - utter_automotive_engineering_transfer_opportunity
+  - utter_business_administration_summary
+  - utter_business_administration_overview
+  - utter_business_administration_admission_period
+  - utter_business_administration_career_opportunity
+  - utter_business_administration_transfer_opportunity
+  - utter_business_administration_curriculum_structure
+  - utter_business_administration_tuition_fee_and_scholarship
+  - utter_chemical_engineering_overview
+  - utter_chemical_engineering_summary
+  - utter_chemical_engineering_admission_period
+  - utter_chemical_engineering_career_opportunity
+  - utter_chemical_engineering_transfer_opportunity
+  - utter_chemical_engineering_tuition_fee_and_scholarship
+  - utter_chemical_engineering_curriculum_structure
+  - utter_civil_engineering_summary
+  - utter_civil_engineering_overview
+  - utter_civil_engineering_admission_period
+  - utter_civil_engineering_career_opportunity
+  - utter_civil_engineering_curriculum_structure
+  - utter_civil_engineering_transfer_opportunity
+  - utter_civil_engineering_tuition_fee_and_scholarship
+  - utter_computer_science_summary
+  - utter_computer_science_overview
+  - utter_computer_science_admission_period
+  - utter_computer_science_career_opportunity
+  - utter_computer_science_curriculum_structure
+  - utter_computer_science_transfer_opportunity
+  - utter_computer_science_tuition_fee_and_scholarship
+  - utter_computer_engineering_summary
+  - utter_computer_engineering_overview
+  - utter_computer_engineering_admission_period
+  - utter_computer_engineering_career_opportunity
+  - utter_computer_engineering_curriculum_structure
+  - utter_computer_engineering_transfer_opportunity
+  - utter_computer_engineering_tuition_fee_and_scholarship
+  - utter_electrical_electronic_engineering_summary
+  - utter_electrical_electronic_engineering_overview
+  - utter_electrical_electronic_engineering_admission_period
+  - utter_electrical_electronic_engineering_career_opportunity
+  - utter_electrical_electronic_engineering_transfer_opportunity
+  - utter_electrical_electronic_engineering_tuition_fee_and_scholarship
+  - utter_electrical_electronic_engineering_curriculum_structure
+  - utter_environmental_engineering_summary
+  - utter_environmental_engineering_overview
+  - utter_environmental_engineering_admission_period
+  - utter_environmental_engineering_career_opportunity
+  - utter_environmental_engineering_curriculum_structure
+  - utter_environmental_engineering_transfer_opportunity
+  - utter_environmental_engineering_tuition_fee_and_scholarship
+  - utter_environmental_and_technology_management_summary
+  - utter_environmental_and_technology_management_overview
+  - utter_environmental_and_technology_management_admission_period
+  - utter_environmental_and_technology_management_career_opportunity
+  - utter_environmental_and_technology_management_curriculum_structure
+  - utter_environmental_and_technology_management_transfer_opportunity
+  - utter_environmental_and_technology_management_tuition_fee_and_scholarship
+  - utter_food_engineering_summary
+  - utter_food_engineering_overview
+  - utter_food_engineering_admission_period
+  - utter_food_engineering_career_opportunity
+  - utter_food_engineering_curriculum_structure
+  - utter_food_engineering_transfer_opportunity
+  - utter_food_engineering_tuition_fee_and_scholarship
+  - utter_mechanical_engineering_summary
+  - utter_mechanical_engineering_overview
+  - utter_mechanical_engineering_admission_period
+  - utter_mechanical_engineering_career_opportunity
+  - utter_mechanical_engineering_curriculum_structure
+  - utter_mechanical_engineering_tuition_fee_and_scholarship
+  - utter_mechanical_engineering_transfer_opportunity
+  - utter_mechatronic_engineering_summary
+  - utter_mechatronic_engineering_overview
+  - utter_mechatronic_engineering_admission_period
+  - utter_mechatronic_engineering_career_opportunity
+  - utter_mechatronic_engineering_curriculum_structure
+  - utter_mechatronic_engineering_transfer_opportunity
+  - utter_mechatronic_engineering_tuition_fee_and_scholarship
+  - utter_petroleum_engineering_summary
+  - utter_petroleum_engineering_overview
+  - utter_petroleum_engineering_admission_period
+  - utter_petroleum_engineering_career_opportunity
+  - utter_petroleum_engineering_curriculum_structure
+  - utter_petroleum_engineering_transfer_opportunity
+  - utter_petroleum_engineering_tuition_fee_and_scholarship
+  - utter_transportation_engineering_summary
+  - utter_transportation_engineering_overview
+  - utter_transportation_engineering_admission_period
+  - utter_transportation_engineering_career_opportunity
+  - utter_transportation_engineering_curriculum_structure
+  - utter_transportation_engineering_transfer_opportunity
+  - utter_transportation_engineering_tuition_fee_and_scholarship
+
+templates:
+  utter_study_program_overall:
+    - text: "Ho Chi Minh City University of Technology provides fourteen bachelor's degree programs, one master's degree program and an exchange program for international students."
+
+  utter_study_program_overall_more:
+    - text: "Along side with fourteen bachelor's programs, we also have The Pre-University semester, which is compulsory to all students who are admitted to bachelor’s degree programs."
+
+  utter_bachelor_overall:
+    - text: "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_definition:
+    - text: "A bachelor's degree or baccalaureate is an undergraduate academic degree awarded by colleges and universities upon completion of a course of study lasting three to seven years (depending on instituition and academic discipline)."
+
+  utter_bachelor_overall_more:
+    - text: "If you want more information about our bachelor's programs, please visit our website at oisp.hcmut.edu.vn."
+
+  utter_pre-university_overall:
+    - text: "Pre-University semester is compulsory for all students, both locals and internationals, applying for study programs of which the medium of instruction is English."
+
+  utter_bachelor_degree:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_program:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_submission:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_requirement_and_submission:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_overall_and_requirement:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_bachelor_requirement:
+   - text:  "We have fourteen bachelor's programs, which are Automotive Engineering, Business Administration, Chemical Engineering, Civil Engineering, Computer Engineering, Computer Science, Electrical Electronic Engineering, Environmental and Technology Management, Environmental Engineering, Food Engineering, Mechatronic Engineering, Mechanical Engineering, Petroleum Engineering, Transportation Engineering."
+
+  utter_automotive_engineering_summary:
+   - text: "Bachelor of Engineering (Automotive)
+Duration: 4 years
+No. of credits: 140 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_automotive_engineering_overview:
+   - text: "Automotive Engineering combines the science of mechanics, electricals and materials, which provides students with the basic principles of engineering together with the modern vehicle design requirements in terms of safety, fuel economy and industrial manufacturing."
+
+  utter_automotive_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_automotive_engineering_career_opportunity:
+   - text: "Students graduating from this program are able to work across the whole product design lifecycle. Graduates can do one or more of the three branches of the Automotive Engineering fields:
+        -Design: Designing new products and improving the existing ones.
+        -Research and Development: Finding solutions to engineering problems
+        -Production: Planning and designing new production process.
+        Graduates may also work in any consulting establishments and Technology Transfer Center related to automotive engineering."
+
+  utter_automotive_engineering_curriculum_structure:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+
+  utter_automotive_engineering_tuition_fee_and_scholarship:
+   - text: "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_automotive_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+        Option 1: Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Automative Engineering awarded by HCMUT – Bach khoa (HCMUT).
+        Option 2: After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our partner universities the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the partner universities.
+        HCMUT – Bach khoa (HCMUT) is currently working to associate the program with our partner universities in USA and Australia. The information will be updated soon."
+
+  utter_business_administration_summary:
+   - text: "Bachelor of Industrial Management
+Duration: 4 years
+No. of credits: 144 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*"
+
+  utter_business_administration_overview:
+   - text: "Business Administration program provides students with knowledge of management which covers various aspects including Marketing, Planning, Accounting, Finance, and Manufacturing.
+Graduates will have great employment prospect both locally and internationally in many related fields as accountants, financial supervisor,  sales, marketing, consultant, etc."
+
+  utter_business_administration_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_business_administration_career_opportunity:
+   - text: "After graduation, students will have opportunity to work in the field of:
+Business development: market research, business planning, community relations, developing new products and services …
+Accounting & financial management: monitoring and management of the company’s accounting, financial activities.
+Investment analysis: preparation and analysis of investment projects, corporate financial analysis, stock data processing
+Administrative & personnel management, planning and organizing training sessions…"
+
+  utter_business_administration_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Business Administration awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT (HCMUT – Bach khoa), students with financial and academic eligibility may transfer to our following partner universities in Australia and USA the later 02 years to complete their study for Bachelor degree:
+University of Illinois Springfield (USA)
+Macquarie University (Australia)
+The official bachelor degree is awarded by the partner university.
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in USA to get a Bachelor Degree awarded by the partner university."
+
+  utter_business_administration_curriculum_structure:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_business_administration_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_chemical_engineering_overview:
+   - text: "Closely linked with the fundamental subjects of chemistry, biology, mathematics, and physics — and in close collaboration with fellow engineering disciplines. Chemical Engineering provides students with  essential knowledge in physical, chemical, and biological processes, engineering design, and synthesis skills; creatively shape and solve complex problems."
+
+  utter_chemical_engineering_summary:
+   - text: "Bachelor of Engineering (Chemical)
+Duration: 4 years
+No. of credits: 144 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_chemical_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_chemical_engineering_career_opportunity:
+   - text: "Graduates have solid professional knowledge to work in areas such as mineral mining, pharmaceutical, biotechnology, food, alcohol, plastic, packaging…
+Career opportunities include works on operational management and operating chemical manufacturing technology equipment systems, system design and calculation, product research and development, product analysis – management…
+Companies often recruit graduates of this sector are:
+-Oil and Gas: Petrovietnam – Vietnam Oil and Gas Group, Saigon Petro
+-Design consulting firm on technological process: Techip , Toyo,..
+-Food – pharmaceutical companies: Acecook , Domesco, Coca-Cola,…
+-Companies manufacturing chemical product: Unilever, P&G,…
+-Environment remediation companies: Greentech,…
+-Cement companies: Holcim, HaTien 1,…
+Fertilizer: Ca Mau Fertilizer Plant, Phu My Fertilizer Plant,…"
+
+  utter_chemical_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Chemical Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to the University of Adelaide (Australia) the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the University of Adelaide (Australia).
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia to get a Bachelor Degree awarded by the University of Adelaide (Australia).
+Please visit The University of Adelaide (ADL), Australia for more information."
+
+  utter_chemical_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_chemical_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+
+  utter_civil_engineering_summary:
+   - text: "Bachelor of Engineering (Civil)
+Duration: 4 years
+No. of credits: 143 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+  
+
+  utter_civil_engineering_overview:
+   - text: "The curriculum provides students with skills and knowledge of planning, designing building construction and maintenance of civil engineering projects.
+Graduates can work in international construction & civil companies as a designer, construction project manager and so on… enables future engineers to be at the forefront in serving society"
+  
+
+  utter_civil_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+  
+
+  utter_civil_engineering_career_opportunity:
+   - text: "After graduating the Civil Engineering from Ho Chi Minh City University of Technology (Bach khoa) (Ho Chi Minh City University of Technology), engineers can take a lot of work in the fields of Construction and Civil Engineering as:
+Design and constructions, design verification, construction project management, construction examination and inspection
+To become a lecturers and research staffs for international universities
+Companies recruiting graduates from HCMUT – Bach khoa (HCMUT) are Bachy Soletance, Meinhardt, Apave, Aurecon, CPG, Arup, Unicons, Coteccons, Cofico,…"
+
+  utter_civil_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_civil_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Civil Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our following parner universities in Australia and USA the later 02 years to complete their study for Bachelor degree:
+Griffith University (Australia)
+The Catholic University of America (USA)
+The official bachelor degree is awarded by the partner university.
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia to get a Bachelor Degree awarded by the partner university."
+
+  utter_civil_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_computer_science_summary:
+   - text: "Bachelor of Engineering (Computer Science)
+Duration: 4 years
+No. of credits: 138 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_computer_science_overview:
+   - text: "*Program accredited by ABET
+
+Computer Science educate students in the theory and application of computer technology.
+
+Graduate with the most fundamental and essential knowledge from logical designing, analyzing to micro-processors and embedded devices."
+
+  utter_computer_science_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_computer_science_career_opportunity:
+   - text: "After graduating the Computer Science from  Ho Chi Minh City University of Technology (Bach khoa) (Ho Chi Minh City University of Technology), engineers can take a lot of work in the fields of Computer and Information Technology as:
+Software designing and software constructing for banks, financial, administrative and commercial organizations, etc.
+Application designing and application constructing for mobile devices, E-Commerce applications, games on computer and mobile devices, etc.
+Managing and building security solutions for computer system and computer network.
+Working for software outsourcing companies in the USA, Japan and Europe markets."
+
+  utter_computer_science_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_computer_science_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Computer Science awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our following oversea partner universities in Australia & USA the later 02 years to complete their study for Bachelor degree:
+The University of Queensland, Australia
+The University of Adelaide, Australia
+The Catholic University of America, USA
+The official bachelor degree is awarded by the partner university.
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia or USA to get a Bachelor Degree awarded by the partner university."
+
+  utter_computer_science_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_computer_engineering_summary:
+   - text: "Bachelor of Engineering (Computer)
+Duration: 4 years
+No. of credits: 143 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*"
+
+  utter_computer_engineering_overview:
+   - text: "Computer Engineering focuses on design, analysis, and application of computers and its system components. The program provides a strong and broad technical foundation, professional engineering skills, leadership ability, and a well-rounded  experience. "
+
+  utter_computer_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_computer_engineering_career_opportunity:
+   - text: "Graduates of this major will have a wide range of career opportunities; they have the option of moving into hardware or software positions, or blending the two. Typical industries hiring computer engineers, include financial services, computer manufacturers, chemical companies, defense contractors, consulting, transportation, manufacturing, and consumer goods. Computer engineers are equally successful in large multinational firms and small startups.
+Graduates of Computer Engineering can take a lot of work in the fields of Computer and Information Technology such as:
+Designing and constructing of software, hardware for automatic control equipment like the control device in automobile, electronic equipments, barcode reading equipments, industrial robots, industrial chains.
+Managing and building security solutions for computer system and computer network.
+Working for software outsourcing companies in the USA, Japan and Europe markets.
+Consulting, appraising and developing information technology projects and solutions."
+
+  utter_computer_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_computer_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Computer Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our following oversea partner universities in Australia & USA the later 02 years to complete their study for Bachelor degree:
+The University of Queensland, Australia
+The University of Adelaide, Australia
+The Catholic University of America, USA"
+
+  utter_computer_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_electrical_electronic_engineering_summary:
+   - text: "Bachelor of Engineering (Electrical – Electronics)
+Duration: 4 years
+No. of credits: 144 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_electrical_electronic_engineering_overview:
+   - text: "The program is a part of the National Project and operates according to the latest curriculum from UIUC (USA).
+The program equip students with modern knowledge, professional skills and abilities to use informatics & communication tools. It was developed to apply advanced training technology from United States partner universities."
+
+  utter_electrical_electronic_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_electrical_electronic_engineering_career_opportunity:
+   - text: "After graduating the Electrical & Electronic Engineering from Ho Chi Minh City University of Technology (Bach khoa) (Ho Chi Minh City University of Technology), engineers can take a lot of work in the field of Computer and Information Technology as:
+Design and construction of software, hardware for automatic control equipment like the control device in automobile, electronic equipments, barcode reading equipments, industrial robots, industrial chains.
+Managing and building security solutions for computer system and computer network.
+Working for software outsourcing companies in the USA, Japan and Europe markets.
+Consulting, appraising and developing information technology projects and solutions."
+
+  utter_electrical_electronic_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students taking this program will spend 04 years on studying at HCMUT – Bach khoa (HCMUT). Students graduated from this program will receive the degree – Bachelor of Electrical and Electronic Engineering by HCMUT – Bach khoa (HCMUT)
+The first three years: The program is completely similar to the program at UIUC. Students will focus on learning the interdisciplinary basic knowledge.
+The last year: Students will choose one of the three major concentrations to study, including Power and Energy System, Communication System and Control Engineering.
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our following oversea partner universities in Australia & USA the later 02 years to complete their study for Bachelor degree:
+University of Illinois at Urbana Champaign (USA)
+Catholic University of America (USA)
+Rutgers University (USA)
+The University of Queensland (Australia)
+Macquarie University (Australia)
+The official bachelor degree is awarded by the partner university.
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia and USA to get a Bachelor Degree awarded by the partner university."
+
+  utter_electrical_electronic_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_electrical_electronic_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_environmental_engineering_summary:
+   - text: "Bachelor of Engineering (Environmental)
+Duration: 4 years
+No. of credits: 140 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_environmental_engineering_overview:
+   - text: "Environmental Engineering provides students with knowledge of chemical, physical and biological processes in environmental pollution control; techniques and construction operating management or environmental control system such as disposing of urban and industrial sewage; air pollution control, disposing of solid waste and toxics; and recycle, reuse, renew wastes, etc."
+
+  utter_environmental_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_environmental_engineering_career_opportunity:
+   - text: "Students graduating from this program are involved in efforts to improve recycling, waste disposal, public health, and control of water and air pollution.
+Graduates may work on designing, planning, and implementing measures to prevent, control, or remediate environmental hazards.
+Graduates can work in the following areas related (but not restricted to):
+Design and evaluation of erosion control systems
+Systems and processes for management and utilization of wastes
+Design and management of water control systems
+Inspection, evaluation, and reporting for regulatory compliance
+Air quality monitoring, air emission measurement and modeling, air pollution mitigation and control, and air dispersion modeling
+Design of animal housing
+Environmental management
+Expert witness"
+
+  utter_environmental_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_environmental_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Environmental Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our partner universities the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the partner universities.
+HCMUT – Bach khoa (HCMUT) is currently working to associate the program with our partner universities in USA and Australia. The information will be updated here soon."
+
+  utter_environmental_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_environmental_and_technology_management_summary:
+   - text: "Bachelor of Engineering (Environmental Management and Technology)
+Duration: 4 years
+No. of credits: 144 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_environmental_and_technology_management_overview:
+   - text: "Environmental Management and Technology Programs students are equipped with updated knowledge basis of environmental and natural resources management, remote sensing and GIS applications in natural resources management; knowledge of treatment technology to water supply, waste water, waste gas and solid waste."
+
+  utter_environmental_and_technology_management_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_environmental_and_technology_management_career_opportunity:
+   - text: "Environmental Management and Technology engineers can meet the recruitment needs and work at the national and local state agency on environment, projects management board, manufacturing enterprises, industrial areas, non-governmental organizations, domestic and foreign environmental consulting firms and centers, research institutes and universities specialized in environmental resource management.
+State management offices often recruit engineers of Environmental Management and Technology Science graduated from Ho Chi Minh City University of Technology, such as Provincial Ministry and Department of Environment and Natural Resources; Provincial Conservation Department; Environmental Monitoring Center of the province; Ministry and Department of Science and Technology; Ministry and Department of Agriculture and Rural Development; District-based Department of Environmental and Natural Resources Management…
+Management Board of national, provincial, municipal, local projects such as of environmental sanitation and drainage basin improvement, renovation of river-basin water in quality, provincial management of solid waste, industrial zone and EPZ management, etc.
+Companies often recruit engineers of Environmental Management and Technology graduated from Ho Chi Minh City University of Technology, including: SEEN, Energy Development Center (EDEC), Nike Vietnam, Clover Technologies Group, and the environmental consulting firm with advisory functions in setting up feasibility report for projects relating to the environment, natural resources, report for environmental impact assessment and for local / national / regional development planning, etc.
+Non-governmental organizations (NGOs) often recruit engineers of Environmental Management and Technology graduated from Ho Chi Minh City University of Technology, including: IUCN Vietnam, CARE Vietnam, and foreign NGOs such as WWF, Save the Children, ENDA, social organizations such as Water and Environmental Conservation Unions, Environmental Conservation Association, etc"
+
+  utter_environmental_and_technology_management_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_environmental_and_technology_management_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Environmental Management & Technology awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT (HCMUT – Bach khoa), students with financial and academic eligibility may transfer to Griffith University (Australia) the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the Griffith University (Australia).
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia to get a Bachelor Degree awarded by the Griffith University (Australia)."
+
+  utter_environmental_and_technology_management_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_food_engineering_summary:
+   - text: "Bachelor of Engineering (Food)
+Duration: 4 years
+No. of credits: 141 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_food_engineering_overview:
+   - text: "Students interested in the production, processing, packaging, safety and/or transportation of the world’s food supply will be taught to combine engineering (fluid mechanics, heat transfer, and mass transfer, etc.), math, and science (biology, chemistry, and physics) with advanced courses in food chemistry, microbiology, food processing operations, and engineering design."
+
+  utter_food_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_food_engineering_career_opportunity:
+   - text: "Food engineers use their skills to design sustainable and environmentally responsible food processes for manufacturing safe, tasty, healthy, convenient food products as consumer awareness and demand for a safe and abundant supply of food have increased
+Graduates have a wide range of jobs to pursue their careers. However, the jobs are usually grouped in the following 4 categories:
+Product development: working with the food products, packaging, etc.
+Engineering: developing the processes and machinery to make and store the food.
+Technical management: overseeing the way the food is made, packaged and stored.
+Hygiene and food safety."
+
+  utter_food_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_food_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Food Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our partner universities the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the partner universities.
+HCMUT – Bach khoa (HCMUT) is currently working to associate the program with our partner universities in USA and Australia. The information will be updated here soon."
+
+  utter_food_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_mechanical_engineering_summary:
+   - text: "Bachelor of Engineering (Mechanical)
+Duration: 4 years
+No. of credits: 152 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_mechanical_engineering_overview:
+   - text: "Mechanical Engineering program at HCMUT – Bach khoa (HCMUT) provides students with solid knowledge of mechanical, electrical, computer system, software engineering, and advanced knowledge about the practice of modern industrial environment."
+
+  utter_mechanical_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_mechanical_engineering_career_opportunity:
+   - text: "After graduating the Mechanical Engineering from Ho Chi Minh City University of Technology (Bach khoa) (formerly Ho Chi Minh City University of Technology), engineers can work for international companies in all related field of combustion, noise, pollution and vibration control, production planning, water supply, product design, aeronautics, bioengineering, mechanics and materials, mechatronics, micro- and nano-engineering, sustainability, thermal sciences, etc.
+There are many mechanical engineers working for big international companies in many fields such as Microsoft, GE, Apple, Samsung, Nokia, Honda, Ford Motor Company,…  "
+
+  utter_mechanical_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_mechanical_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_mechanical_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Mechanical Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to the following partner universities in Australia and USA the later 02 years to complete their study for Bachelor degree:
+The University of Technology, Sydney (Australia)
+Griffith University (Australia)
+The Catholic University of America (USA)
+The official bachelor degree is awarded by the partner university.
+
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia to get a Bachelor Degree."
+
+  utter_mechatronic_engineering_summary:
+   - text: "Bachelor of Engineering (Mechatronic)
+Duration: 4 years
+No. of credits: 150 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_mechatronic_engineering_overview:
+   - text: "Mechatronic Engineering Program at HCMUT – Bach khoa (HCMUT) provides students solid knowledge of mechanical, electrical, computer system, software engineering, and advanced knowledge about the practice of modern industrial environment.
+Our program emphasizes the design of electro-mechanical devices ranging from large-scale automated manufacturing systems to micro-scale sensors and instrumentation."
+
+  utter_mechatronic_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_mechatronic_engineering_career_opportunity:
+   - text: "After graduating the Mechatronic Engineering from Ho Chi Minh City University of Technology (Bach khoa) (formerly Ho Chi Minh City University of Technology), engineers can work in all related areas but mostly include:
+The heavy industry, manufacturing
+Companies work in automatic equipment and aviation field
+Companies manufactures high-end devices and robotic"
+
+  utter_mechatronic_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_mechatronic_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Mechatronic Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our partner universities in Australia the later 02 years to complete their study for Bachelor degree:
+The University of Technology, Sydney (Australia)
+Griffith University (Australia)
+The official bachelor degree is awarded by the partner university.
+The advantage of this option is that the student can save about 50% total fees (tuition fee and living expenses) compared to studying for full 4 years in Australia to get a Bachelor Degree."
+
+  utter_mechatronic_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_petroleum_engineering_summary:
+   - text: "Bachelor of Engineering (Petroleum)
+Duration: 4 years
+No. of credits: 144 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_petroleum_engineering_overview:
+   - text: "Petroleum Engineering program features studies in physics, chemistry, mathematics, geology, economics and other specialist petroleum engineering topics.
+Students will be prepared for petroleum industry and its related fields such as drilling, exploitation, petroleum production, reservoir engineering and transportation of oil, natural gas and petroleum economics, etc."
+
+  utter_petroleum_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_petroleum_engineering_career_opportunity:
+   - text: "Graduates can work in either Vietnamese or foreign petroleum companies, including:
+The subsidiaries of Petrovietnam – Vietnam Oil and Gas Group (PVEP, PVD, PTSC, PIDC, VPI…)
+The joint ventures and the joint operations (VSP, JVPC, Petronas, Cuu Long JOC, Hoang Long JOC, Universal JOC, Truong Son JOC …)
+Multinational petroleum corporations (BP, Unocal, Exxon Mobile …), international petroleum technical service corporations (Schlumberger, BJ, Halliburton, GEOSERVICES, Baker Hughes, Weatherford, …)
+Universities, Institutes of Petroleum, drilling and groundwater extraction enterprises, Provincial Department of Science and Technology – Environment, Department of Agriculture and Rural Development, Provincial Department of Industry)"
+
+  utter_petroleum_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_petroleum_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Petroleum Engineering from HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to the University of Adelaide (ADL), Australia the later 02 year to complete their study for Bachelor degree. The official bachelor degree is awarded by the University of Adelaide (ADL), Australia
+The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia to get a Bachelor Degree awarded."
+
+  utter_petroleum_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."
+
+  utter_transportation_engineering_summary:
+   - text: "Bachelor of Engineering (Bridge and Highway)
+Duration: 4 years
+No. of credits: 140 credits
+Medium of instruction: English
+Tuition fee: approx. 16,700 USD*
+(*for studying 4 years in Vietnam)"
+
+  utter_transportation_engineering_overview:
+   - text: "Bridge and Highway Engineering is the application of technology and scientific principles to the planning, functional design, operation and management of facilities to provide for the safe, efficient, and environmentally compatible movement of people and goods.
+Students will develop knowledge and skills in the planning, design, construction and implementation of building and infrastructure facilities specialized in roadways and bridges."
+
+  utter_transportation_engineering_admission_period:
+   - text: "Ho Chi Minh City University of Technology (Bach khoa) receives applications to study Bachelor’s degree programs all year round.
+        Students can complete the online application on our website and submit the required documents to the International Admission Department of the University."
+
+  utter_transportation_engineering_career_opportunity:
+   - text: "Opportunities for students graduating with Bridge and Highway Engineering Degree are expected to increase in the next decades.
+The job varies depending on the nature of the transport system and the size and type of employer. Graduates may generally involve in analyzing data, identifying problems and solving them with innovative solutions. They may also develop new roads and design traffic patterns. Besides that, supervision of transportation construction is usually included in transportation engineer tasks.
+Some of the popular jobs in Bridge and Highway Engineering are listed, but not restricted to, as the following:
+Construction Engineer: working onsite to manage the construction and to ensure that a particular project is on schedule, is built according to the design and is safe for the workers involved.
+Transportation Planner: planning to build transportation roadways and facilities together with balancing the needs and concerns of the public with the demands of the project.
+Transportation Designer: Designing transportation projects considering the cost and the impact to the surrounding environment.
+Graduates can become consultants for transportation constructions or lecturers in colleges and universities as well."
+
+  utter_transportation_engineering_curriculum:
+   - text: "You will study four years at HCMUT - Bach Khoa University, downtown campus, with the language of instruction is English."
+      
+
+  utter_transportation_engineering_transfer_opportunity:
+   - text: "Students have 2 options:
+Option 1:
+Students study at HCMUT – Bach khoa (HCMUT) for 4 years and get the Bachelor of Bridge and Highway Engineering awarded by HCMUT – Bach khoa (HCMUT).
+Option 2:
+After completing 02 years at HCMUT – Bach khoa (HCMUT), students with financial and academic eligibility may transfer to our partner universities the later 02 years to complete their study for Bachelor degree. The official bachelor degree is awarded by the partner universities.
+HCMUT – Bach khoa (HCMUT) is currently working to associate the program with our partner universities in USA and Australia. The information will be updated here soon."
+
+  utter_transportation_engineering_tuition_fee_and_scholarship:
+   - text:  "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester."

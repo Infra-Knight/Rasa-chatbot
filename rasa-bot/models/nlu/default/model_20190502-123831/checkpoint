@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/todoanhienvinh/Desktop/1Rasa-DjangoChatbot-big-data-with-fallback/rasa-bot/models/nlu/default/model_20190502-123831/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/Users/todoanhienvinh/Desktop/1Rasa-DjangoChatbot-big-data-with-fallback/rasa-bot/models/nlu/default/model_20190502-123831/intent_classifier_tensorflow_embedding.ckpt"
