@@ -10,6 +10,8 @@ slots:
   uni:
     type: categorical
     values:
+      - ielts
+      - toefl
       - university
       - computer engineering
       - computer science
