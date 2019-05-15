@@ -119,7 +119,7 @@
 
 ## master_program_overview
 * master_program_overview{"uni": "master program"}
-    - utter_master_program
+    - utter_master_program_overview
 
 ## dormitory_fee
 * dormitory_fee
