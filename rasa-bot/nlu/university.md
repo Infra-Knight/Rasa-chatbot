@@ -38,33 +38,33 @@
 - What if i study here?
 
 ## intent:international_admission
-- I want to study here.
-- How to apply.
-- How to signup.
-- Can you tell me how to apply?
-- Can you tell me how to signup?
+- [international admission](uni)
+- [admission for international](uni:international admission) student
+- [international acceptance](uni:international admission)
+- how do I apply as a international student
+- how can I apply as a abroad student
 
 ## intent:international_admission_requirement
-- Is there any requirements to join your university?
-- Entrance requirements 
-- Admission requirements
-- what are the requirements for internantional applicants?
+- Is there any requirements fot foreign students to join your university?
+- Entrance requirements for abroad student
+- [international admission](uni) requirements
+- what are the requirements for [internantional applicants](uni:international admission)?
 - What do i need to have in order to study here ?
-- What does student need to prepare in order to enroll the university?
+- What does foreign student need to prepare in order to enroll the university?
 
 ## intent:international_student_support_overview
-- support for international student 
-- is there support for international - student 
-- international student supporting 
+- [support for international student](uni:international support) 
+- is there any [help for international student](uni:international support) 
+- international student supporting
 - helping international student
--  do you have international student support
-- what about internationnal support
+- do you have [international student support](uni: international support)
+- what about [internationnal support](uni)
 - is there any support for foreign student
 - i am a foreign student and i need help
 - help for abroad student
 - i am a foreign student
-- offshore student help
-- overseas student support
+- [offshore student help](uni:international support)
+- [overseas student support](uni:international support)
 
 ## intent:international_student_support_visa
 - is there any visa support
@@ -117,29 +117,30 @@
 - the essential factor to apply to the university
 
 ## intent:study_program
-- what about the study program
-- all study program
-- study program of our [university](uni)
-- educational program of our school
-- what kind of program does our [university](uni) provide
+- what about the [study program](uni)
+- all [study program](uni)
+- [study program](uni) of our university
+- [educational program](uni:study program) of our school
+- what kind of program does our university provide
 
 ## intent:pre_university
-- pre university
-- preuniversity
-- pre_uni
-- tell me about the pre university
+- [pre university](uni)
+- [preuniversity](uni:pre univeristy)
+- [pre_uni](uni:pre university)
+- tell me about the [pre university](uni)
 - i want to learn English before study other subjects
-- I need to study pre university
+- my english is not good
+- I need to study [pre university](uni)
 
 ## intent:bachelor_overall
-- baccalaureate overview
-- general information about our uni baccalaureate
-- bachelor program
-- how many bachelor major that the university have
-- 14 majors of our university
-- fourteen majors
-- list all the majors in the bachelor program
-- give me all the majors in the bachelor program
+- [baccalaureate](uni:bachelor program) overview
+- general information about our uni [baccalaureate](uni:bachelor program)
+- [bachelor program](uni)
+- how many [bachelor major](uni: bachelor program) that the university have
+- [14 majors](uni:bachelor program) of our university
+- [fourteen majors](uni:bachelor program)
+- list all the majors in the [bachelor program](uni)
+- give me all the majors in the [bachelor program](uni)
 
 ## intent:dormitory_fee
 - how much is dormitory fee
@@ -180,12 +181,12 @@
 - span of the english course
 
 ## intent:sk_overview
-- soft skills course overview
-- What is soft skills course
-- Information about soft skills course
-- What do I expect to learn from soft skills course
-- Program summary of soft skills course
-- Detail about soft skills course
+- [soft skills](uni:soft skill) course overview
+- What is [soft skills](uni:soft skill) course
+- Information about [soft skill](uni) course
+- What do I expect to learn from [soft skill](uni) course
+- Program summary of [soft skills](uni:soft skill) course
+- Detail about [soft skill](uni) course
 
 ## intent:sk_camp
 - OISP Camp
@@ -210,14 +211,14 @@
 - Program summary of liberal art course
 
 ## intent:master_program_overview
-- master program
-- master program overview
-- What is master program
-- What do I expect to learn from master program
-- Duration of master program
-- Number of years to study master program
-- Number of credits for studying master program
-- Which languague do I need to study master program
+- [master program](uni)
+- [master program](uni) overview
+- What is [master program](uni)
+- What do I expect to learn from [master program](uni)
+- Duration of [master program](uni)
+- Number of years to study [master program](uni)
+- Number of credits for studying [master program](uni)
+- Which languague do I need to study [master program](uni)
 
 ## intent:exchange_program_overview
 - exchange program

@@ -13,6 +13,13 @@ slots:
       - ielts
       - toefl
       - university
+      - study program
+      - international admission
+      - international support
+      - pre university
+      - soft skill
+      - bachelor program
+      - master program
       - computer engineering
       - computer science
       - food engineering
@@ -663,7 +670,7 @@ I can also provide information about
 \n The advantage of this option is that the student can save about 50% total fee (tuition fee and living expense) compared to studying for full 4 years in Australia or USA to get a Bachelor Degree awarded by the partner university."
   utter_computer_science_tuition_fee:
     - text: "The annual tuition fee is around 3,600 USD. The exact amount depends on the number of credits students register to study each semester. Please see the tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/"
-  utter_food_overview:  
+  utter_food_engineering_overview:  
     - text: "Students interested in the production, processing, packaging, safety and/or transportation of the world’s food supply will be taught to combine engineering (fluid mechanics, heat transfer, and mass transfer, etc.), math, and science (biology, chemistry, and physics) with advanced courses in food chemistry, microbiology, food processing operations, and engineering design.
 
 I can also provide information about
@@ -1346,5 +1353,3 @@ I can also provide information about
     - text: "Ask me if you know to know more information about VISA, ACCOMMODATION SUPPORT or AIR-PORT PICKUP."
   utter_other_question:
     - text: "Let me know if you have any other question."
-  utter_default:
-    - text: "No result"

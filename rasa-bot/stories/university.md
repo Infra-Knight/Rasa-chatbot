@@ -51,7 +51,7 @@
     - utter_other_question
 
 ## international_admission
-* international_admission
+* international_admission{"uni": "international admission"}
     - utter_international_admission
     - utter_suggest_yn_international_student_support_overview
 > international_admission
@@ -68,25 +68,34 @@
     - utter_other_question
 
 ## international_admission_requirement
-* international_admission_requirement
+* international_admission_requirement{"uni": "international admission"}
+    - slot{"uni": "international admission"}
     - utter_international_admission_requirement
 
 ## international_student_support_overview
-* international_student_support_overview
+* international_student_support_overview{"uni": "international support"}
+    - slot{"uni": "international support"}
     - utter_international_student_support_overview
     - utter_suggest_after_international_student_support_overview
 
 ## international_student_support_visa
-* international_student_support_visa
+* international_student_support_visa{"uni": "international support"}
+    - slot{"uni": "international support"}
     - utter_international_student_support_visa
 
 ## international_student_support_accommodate
-* international_student_support_accommodate
+* international_student_support_accommodate{"uni": "international support"}
+    - slot{"uni": "international support"}
     - utter_international_student_support_accommodate
 
 ## international_student_support_airport_pickup
-* international_student_support_airport_pickup
+* international_student_support_airport_pickup{"uni": "international support"}
+    - slot{"uni": "international support"}
     - utter_international_student_support_airport_pickup
+
+## partner_university
+* partner_university
+    - utter_partner_university
 
 ## bach_khoa_apply
 * bach_khoa_apply
@@ -97,16 +106,20 @@
     - utter_bach_khoa_requirement
 
 ## study_program
-* study_program
+* study_program{"uni": "study program"}
     - utter_study_program
 
 ## pre_university
-* pre_university
+* pre_university{"uni": "pre university"}
     - utter_pre_university
 
 ## bachelor_overall
-* bachelor_overall    
+* bachelor_overall{"uni": "bachelor program"}   
     - utter_bachelor_overall
+
+## master_program_overview
+* master_program_overview{"uni": "master program"}
+    - utter_master_program
 
 ## dormitory_fee
 * dormitory_fee
