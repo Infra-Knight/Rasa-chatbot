@@ -126,9 +126,11 @@
     - utter_dormitory_fee
 
 ## english_course_overview
-* english_course_overview
+* english_course_overview{"uni": "english course"}
+    - slot{"uni": "english course"}
     - utter_english_course_overview
 
 ## english_course_duration
-* english_course_duration
+* english_course_duration{"uni": "english course"}
+    - slot{"uni": "english course"}
     - utter_english_course_duration
