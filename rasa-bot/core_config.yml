@@ -1,6 +1,6 @@
 policies:
   - name: KerasPolicy
-    epochs: 1500
+    epochs: 2000
     max_history: 4
   - name: FormPolicy
   - name: MappingPolicy
