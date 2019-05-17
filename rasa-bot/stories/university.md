@@ -79,17 +79,17 @@
     - utter_suggest_after_international_student_support_overview
 
 ## international_student_support_visa
-* international_student_support_visa{"uni": "international support"}
+* international_student_support_visa
     - slot{"uni": "international support"}
     - utter_international_student_support_visa
 
 ## international_student_support_accommodate
-* international_student_support_accommodate{"uni": "international support"}
+* international_student_support_accommodate
     - slot{"uni": "international support"}
     - utter_international_student_support_accommodate
 
 ## international_student_support_airport_pickup
-* international_student_support_airport_pickup{"uni": "international support"}
+* international_student_support_airport_pickup
     - slot{"uni": "international support"}
     - utter_international_student_support_airport_pickup
 
@@ -124,3 +124,11 @@
 ## dormitory_fee
 * dormitory_fee
     - utter_dormitory_fee
+
+## english_course_overview
+* english_course_overview
+    - utter_english_course_overview
+
+## english_course_duration
+* english_course_duration
+    - utter_english_course_duration

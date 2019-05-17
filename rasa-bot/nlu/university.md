@@ -127,6 +127,7 @@
 - [pre university](uni)
 - [preuniversity](uni:pre univeristy)
 - [pre_uni](uni:pre university)
+- [pre-university](uni:pre university)
 - tell me about the [pre university](uni)
 - i want to learn English before study other subjects
 - my english is not good
