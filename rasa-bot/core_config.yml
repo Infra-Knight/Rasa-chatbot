@@ -1,6 +1,4 @@
 policies:
-  - name: KerasPolicy
-    epochs: 1500
-    max_history: 4
-  - name: FormPolicy
-  - name: MappingPolicy
+  - name: EmbeddingPolicy
+epochs: 2000
+attn_shift_range: 5
