@@ -10,31 +10,31 @@ slots:
   uni:
     type: categorical
     values:
-      - ielts
-      - toefl
-      - university
-      - study program
-      - international admission
-      - international support
-      - pre university
-      - english course
-      - soft skill
-      - bachelor program
-      - master program
-      - computer engineering
-      - computer science
-      - food engineering
-      - automotive engineering
-      - business administration
-      - chemical engineering
-      - civil engineering
-      - electrical electronic engineering
-      - environmental engineering
-      - environmental and technology management
-      - mechanical engineering
-      - petroleum engineering
-      - mechatronic engineering
-      - transportation engineering
+    - ielts
+    - toefl
+    - university
+    - study program
+    - international admission
+    - international support
+    - pre university
+    - english course
+    - soft skill
+    - bachelor program
+    - master program
+    - computer engineering
+    - computer science
+    - food engineering
+    - automotive engineering
+    - business administration
+    - chemical engineering
+    - civil engineering
+    - electrical electronic engineering
+    - environmental engineering
+    - environmental and technology management
+    - mechanical engineering
+    - petroleum engineering
+    - mechatronic engineering
+    - transportation engineering
 
 entities:
  - number
