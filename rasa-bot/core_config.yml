@@ -2,3 +2,7 @@ policies:
   - name: EmbeddingPolicy
     epochs: 2000
     attn_shift_range: 5
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.01
+    core_threshold: 0.01
+    fallback_action_name: "utter_default"

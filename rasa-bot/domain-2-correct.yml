@@ -1354,3 +1354,5 @@ I can also provide information about
     - text: "Ask me if you know to know more information about VISA, ACCOMMODATION SUPPORT or AIR-PORT PICKUP."
   utter_other_question:
     - text: "Let me know if you have any other question."
+  utter_default:
+    - text: "Sorry, I do not understand."
