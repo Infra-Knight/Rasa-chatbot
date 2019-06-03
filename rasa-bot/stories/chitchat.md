@@ -15,11 +15,9 @@
     - action_get_weather
 
 ## ielts_1
-* ielts_1{"uni": "ielts", "number": ""}
-- slot{"uni": "ielts"}
-- action_ielts_1
+* ielts_1{"uni": "ielts"}{"number": ""}
+    - action_ielts_1
 
 ## toefl_1
-* toefl_1{"uni": "toefl", "number": ""}
-- slot{"uni": "toefl"}
-- action_toefl_1
+* toefl_1{"uni": "toefl"}{"number": ""}
+    - action_toefl_1

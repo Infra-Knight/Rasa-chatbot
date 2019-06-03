@@ -162,24 +162,24 @@
 - Which languague do I need to study pre-university
 
 ## intent:english_course_overview
-- english course
-- english course overview
-- What is english course
-- Tell me about english course
-- Overview about english course
-- Information about english course
-- What do I expect to learn from english course
-- About english course
-- Summary of english course
-- Program summary of english course
-- Detail about english course
+- [english course](uni)
+- [english course](uni) overview
+- What is [english course](uni)
+- Tell me about [english course](uni)
+- Overview about [english course](uni)
+- Information about [english course](uni)
+- What do I expect to learn from [english course](uni)
+- About [english course](uni)
+- Summary of [english course](uni)
+- Program summary of [english course](uni)
+- Detail about [english course](uni)
 
 ## intent:english_course_duration
-- Duration of english course
-- how long is the english course
-- period of the english course
-- strech of time of english course
-- span of the english course
+- Duration of [english course](uni)
+- how long is the [english course](uni)
+- period of the [english course](uni)
+- strech of time of [english course](uni)
+- span of the [english course](uni)
 
 ## intent:sk_overview
 - [soft skills](uni:soft skill) course overview
