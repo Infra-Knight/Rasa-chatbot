@@ -6,8 +6,8 @@
 - can i apply to the bachelor program if my [ielts](uni) score is [one](number)
 
 ## intent:toefl_1
-- my [toefl](uni) score is [seventy nine](number)
-- I have a [toefl](uni) score of [120](number)
-- what if my [toefl](uni) score is [a hundred and five](number)
-- [toefl](uni) point is [sixty four](number)
-- can i apply to the bachelor program if my [toefl](uni) score is [one](number)
+- my [toefl ibt](uni) score is [seventy nine](number)
+- I have a [toefl ibt](uni) score of [120](number)
+- what if my [toefl ibt](uni) score is [a hundred and five](number)
+- [toefl ibt](uni) point is [sixty four](number)
+- can i apply to the bachelor program if my [toefl ibt](uni) score is [one](number)

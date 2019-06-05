@@ -11,7 +11,7 @@ slots:
     type: categorical
     values:
     - ielts
-    - toefl ibt
+    - toefl
     - university
     - study program
     - international admission
@@ -483,10 +483,7 @@ Click here for more detail: http://oisp.hcmut.edu.vn/en/study-environment/why-st
 \n &bull; Visa, 
 \n &bull; Accommodation
 \n &bull; Arrival service.
-\n You can click here for more detail: http://oisp.hcmut.edu.vn/en/admission/supporting-services-for-international-students/
-
-
-Ask me if you know to know more information about VISA, ACCOMMODATION SUPPORT or AIR-PORT PICKUP"
+\n You can click here for more detail: http://oisp.hcmut.edu.vn/en/admission/supporting-services-for-international-students/"
   utter_international_student_support_visa:
     - text: "&bull; 1. Visa Approval Letter
 \n Students who get admission to Ho Chi Minh City University of Technology are supported to get the Visa Approval Letter from the Vietnam Immigration Department. With the letter, students can apply for visa to Vietnam from their countries of residence easier.
@@ -524,16 +521,10 @@ You can click http://oisp.hcmut.edu.vn/en/admission/admission-requirements/"
 \n &bull; BACHELOR PROGRAM: Undergraduate Admission – open for all students who complete their high school study.
 \n &bull; PRE – UNIVERSITY: The Pre-University semester is compulsory to all students who are admitted to bachelor’s degree programs
 \n &bull; STUDENT EXCHANGE: Student in universities around the world can apply for 1 to 2 semesters at Ho Chi Minh City University of Technology .
-\n &bull; MASTER PROGRAM: At the present, we offer 01 master program for international students: Executive Master of Business Administration in Management Consulting International.
-
-
-Just feel free to ask me if you want to know more about our BACHHELOR PROGRAM, MASTER PROGRAM, EXCHANGE PROGRAM or PRE-UNIVERSITY PROGRAM!"
+\n &bull; MASTER PROGRAM: At the present, we offer 01 master program for international students: Executive Master of Business Administration in Management Consulting International."
   utter_pre_university:
     - text: "Pre-University semester is compulsory for all students (both locals & internationals) applying for study programs of which the medium of instruction is English.
-\n The program is to equip students with academic preparation, soft-skills & studying skills which are essential and efficient for studying in university, as well as applicable in future career path.
-
-
-Just feel free to ask me if you want to know more about ENGLISH COURSE, SOFT COURSE or LIBARAL ART COURSE !"
+\n The program is to equip students with academic preparation, soft-skills & studying skills which are essential and efficient for studying in university, as well as applicable in future career path."
   utter_bachelor_overall:
     - text: "BACHELOR PROGRAM: Undergraduate Admission – open for all students who complete their high school study with 14 difference majors including 
 \n &bull; AUTOMOTIVE ENGINEERING
@@ -573,10 +564,7 @@ Just feel free to ask me if you want to know more about ENGLISH COURSE, SOFT COU
     - text: "The course aims to prepare students with essential skills, such as communication skills, teamwork skills, presentation skills, writing skills, time management skills, project management skills, studying skills, problem-solving skills…
 \n &bull; To help students comprehend and apply effective study, communication and work skills through class discussion, extra curriculum activities such as OISP Camp, Community Project, Social Topic Discussion and Seminars
 \n &bull; To develop students’ confidence, enhance their ability to communicate professionally and to foster civilized, harmonized manner
-\n &bull; To cultivate and nurture students’ ethics, social awareness, social responsibility and global mindset.
-
-
-Ask me if you know to know more information about OISP CAMP, COMMUNITY PROJECT or PRESENT CONTEST"
+\n &bull; To cultivate and nurture students’ ethics, social awareness, social responsibility and global mindset"
   utter_sk_camp:
     - text: "A two-day camping trip involve various activities and events for freshmen, not only to relax but also to connect with more friends, putting the skills learned into practice."
   utter_sk_community_project:
@@ -603,7 +591,6 @@ Ask me if you know to know more information about OISP CAMP, COMMUNITY PROJECT o
     - text: "You can view Partner University here: http://oisp.hcmut.edu.vn/en/partner-universities/"
   utter_computer_engineering_overview:
     - text: "Computer Engineering focuses on design, analysis, and application of computers and its system components. \n The program provides a strong and broad technical foundation, professional engineering skills, leadership ability, and a well-rounded  experience. 
-
 
 I can also provide information about
 \n &bull; Admission process
@@ -646,7 +633,6 @@ I can also provide information about
     - text: "Computer Science educate students in the theory and application of computer technology. 
 \n Graduate with the most fundamental and essential knowledge from logical designing, analyzing to micro-processors and embedded devices.
 
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -688,7 +674,6 @@ I can also provide information about
   utter_food_engineering_overview:  
     - text: "Students interested in the production, processing, packaging, safety and/or transportation of the world’s food supply will be taught to combine engineering (fluid mechanics, heat transfer, and mass transfer, etc.), math, and science (biology, chemistry, and physics) with advanced courses in food chemistry, microbiology, food processing operations, and engineering design.
 
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -727,7 +712,6 @@ I can also provide information about
   utter_automotive_engineering_overview:
     - text: "Automotive Engineering combines the science of mechanics, electricals and materials, which provides students with the basic principles of engineering together with the modern vehicle design requirements in terms of safety, fuel economy and industrial manufacturing.
 
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -765,7 +749,6 @@ I can also provide information about
   utter_business_administration_overview:
     - text: "Business Administration program provides students with knowledge of management which covers various aspects including Marketing, Planning, Accounting, Finance, and Manufacturing.
 \n Graduates will have great employment prospect both locally and internationally in many related fields as accountants, financial supervisor,  sales, marketing, consultant, etc.
-
 
 I can also provide information about
 \n &bull; Admission process
@@ -807,7 +790,6 @@ I can also provide information about
   utter_chemical_engineering_overview:
     - text: "Closely linked with the fundamental subjects of chemistry, biology, mathematics, and physics — and in close collaboration with fellow engineering disciplines. Chemical Engineering provides students with  essential knowledge in physical, chemical, and biological processes, engineering design, and synthesis skills; creatively shape and solve complex problems.
     
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -854,7 +836,6 @@ I can also provide information about
     - text: "The curriculum provides students with skills and knowledge of planning, designing building construction and maintenance of civil engineering projects.
 \n Graduates can work in international construction & civil companies as a designer, construction project manager and so on… enables future engineers to be at the forefront in serving society.
 
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -894,7 +875,6 @@ I can also provide information about
   utter_electrical_electronic_engineering_overview:
     - text: "The program is a part of the National Project and operates according to the latest curriculum from UIUC (USA).
 \n The program equip students with modern knowledge, professional skills and abilities to use informatics & communication tools. It was developed to apply advanced training technology from United States partner universities.
-
 
 I can also provide information about
 \n &bull; Admission process
@@ -941,7 +921,6 @@ I can also provide information about
   utter_environmental_engineering_overview:
     - text: "Environmental Engineering provides students with knowledge of chemical, physical and biological processes in environmental pollution control; techniques and construction operating management or environmental control system such as disposing of urban and industrial sewage; air pollution control, disposing of solid waste and toxics; and recycle, reuse, renew wastes, etc.
     
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -985,7 +964,6 @@ Graduates may work on designing, planning, and implementing measures to prevent,
   utter_environmental_and_technology_management_overview:
     - text: "Environmental Management and Technology Programs students are equipped with updated knowledge basis of environmental and natural resources management, remote sensing and GIS applications in natural resources management; knowledge of treatment technology to water supply, waste water, waste gas and solid waste.
     
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -1019,7 +997,6 @@ I can also provide information about
   utter_mechanical_engineering_overview:
     - text: "Mechanical Engineering program at University of Technology provides students with solid knowledge of mechanical, electrical, computer system, software engineering, and advanced knowledge about the practice of modern industrial environment.
     
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -1059,7 +1036,6 @@ I can also provide information about
     - text: "Petroleum Engineering program features studies in physics, chemistry, mathematics, geology, economics and other specialist petroleum engineering topics.
 \n Students will be prepared for petroleum industry and its related fields such as drilling, exploitation, petroleum production, reservoir engineering and transportation of oil, natural gas and petroleum economics, etc.
 
-
 I can also provide information about
 \n &bull; Admission process
 \n &bull; Tuition fee
@@ -1097,7 +1073,6 @@ I can also provide information about
   utter_mechatronic_engineering_overview:
     - text: "Mechatronic Engineering Program at University of Technology provides students solid knowledge of mechanical, electrical, computer system, software engineering, and advanced knowledge about the practice of modern industrial environment.
 \n Our program emphasizes the design of electro-mechanical devices ranging from large-scale automated manufacturing systems to micro-scale sensors and instrumentation.
-
 
 I can also provide information about
 \n &bull; Admission process
@@ -1138,7 +1113,6 @@ I can also provide information about
   utter_transportation_engineering_overview:
     - text: "Bridge and Highway Engineering is the application of technology and scientific principles to the planning, functional design, operation and management of facilities to provide for the safe, efficient, and environmentally compatible movement of people and goods.
 \n Students will develop knowledge and skills in the planning, design, construction and implementation of building and infrastructure facilities specialized in roadways and bridges.
-
 
 I can also provide information about
 \n &bull; Admission process
