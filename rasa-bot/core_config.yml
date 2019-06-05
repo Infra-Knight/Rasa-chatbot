@@ -1,13 +1,11 @@
 policies:
-  - name: KerasPolicy
-    batch_size: 32
-    epochs: 1500
-    rnn_size: 64
+  - name: "EmbeddingPolicy"
+    epochs: 1000
+    attn_shift_range: 3
     featurizer:
-      - name: MaxHistoryTrackerFeaturizer
-        max_history: 38
-        state_featurizer:
-          - name: BinarySingleStateFeaturizer
+    - name: FullDialogueTrackerFeaturizer
+      state_featurizer:
+      - name: LabelTokenizerSingleStateFeaturizer
   - name: "FallbackPolicy"
     nlu_threshold: 0.01
     core_threshold: 0.01
