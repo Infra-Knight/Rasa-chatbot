@@ -58,3 +58,10 @@
 - When can I apply for [automotive engineering](uni)
 - acceptance period [automotive engineering](uni)
 - admittance time [automotive engineering](uni)
+
+## intent:automotive_engineering_overview+automotive_engineering_summary
+- [automotive engineering](uni) overview and summary
+- [automotive engineering](uni) overview. [automotive engineering](uni) summary
+- [automotive engineering](uni) study program and summary
+- [automotive engineering](uni) overview and [automotive engineering](uni) study prgram
+- the study program of [automotive engineering](uni) and summary of [automotive engineering](uni)
