@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "electrical electronic engineering"}
     - utter_more_how_electrical_electronic_engineering
+
+## combine_electrical_electronic_engineering
+* electrical_electronic_engineering_overview+electrical_electronic_engineering_summary
+    - slot{"uni": "electrical electronic engineering"}
+    - utter_electrical_electronic_engineering_overview
+    - utter_electrical_electronic_engineering_summary

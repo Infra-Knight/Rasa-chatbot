@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "chemical engineering"}
     - utter_more_how_chemical_engineering
+
+## combine_chemical_engineering
+* chemical_engineering_overview+chemical_engineering_summary
+    - slot{"uni": "chemical engineering"}
+    - utter_chemical_engineering_overview
+    - utter_chemical_engineering_summary

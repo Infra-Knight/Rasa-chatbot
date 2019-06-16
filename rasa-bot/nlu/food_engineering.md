@@ -59,3 +59,10 @@
 - When can I apply for [food engineering](uni)
 - acceptance period [food engineering](uni)
 - admittance time [FE](uni:food engineering)
+
+## intent:food_engineering_overview+food_engineering_summary
+- [food engineering](uni) overview and summary
+- [food engineering](uni) overview. [food engineering](uni) summary
+- [food engineering](uni) study program and summary
+- [food engineering](uni) overview and [food engineering](uni) study prgram
+- the study program of [food engineering](uni) and summary of [food engineering](uni)

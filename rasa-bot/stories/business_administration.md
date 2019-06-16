@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "business administration"}
     - utter_more_how_business_administration
+    
+## combine_business_administration
+* business_administration_overview+business_administration_summary
+    - slot{"uni": "business administration"}
+    - utter_business_administration_overview
+    - utter_business_administration_summary

@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "computer engineering"}
     - utter_more_how_computer_engineering
+
+## combine_computer_engineering
+* computer_engineering_overview+computer_engineering_summary
+    - slot{"uni": "computer engineering"}
+    - utter_computer_engineering_overview
+    - utter_computer_engineering_summary

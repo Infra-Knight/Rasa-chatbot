@@ -58,3 +58,10 @@
 - When can I apply for [chemical engineering](uni)
 - acceptance period [chemical engineering](uni)
 - admittance time [chemical engineering](uni)
+
+## intent:chemical_engineering_overview+chemical_engineering_summary
+- [chemical engineering](uni) overview and summary
+- [chemical engineering](uni) overview. [chemical engineering](uni) summary
+- [chemical engineering](uni) study program and summary
+- [chemical engineering](uni) overview and [chemical engineering](uni) study prgram
+- the study program of [chemical engineering](uni) and summary of [chemical engineering](uni)

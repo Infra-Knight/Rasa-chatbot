@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "computer science"}
     - utter_more_how_computer_science
+
+## combine_computer_science
+* computer_science_overview+computer_science_summary
+    - slot{"uni": "computer science"}
+    - utter_computer_science_overview
+    - utter_computer_science_summary

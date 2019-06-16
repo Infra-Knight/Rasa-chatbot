@@ -58,3 +58,10 @@
 - When can I apply for [environmental and technology management](uni)
 - acceptance period [environmental and technology management](uni)
 - admittance time [environmental and technology management](uni)
+
+## intent:environmental_and_technology_management_overview+environmental_and_technology_management_summary
+- [environmental and technology management](uni) overview and summary
+- [environmental and technology management](uni) overview. [environmental and technology management](uni) summary
+- [environmental and technology management](uni) study program and summary
+- [environmental and technology management](uni) overview and [environmental and technology management](uni) study prgram
+- the study program of [environmental and technology management](uni) and summary of [environmental and technology management](uni)

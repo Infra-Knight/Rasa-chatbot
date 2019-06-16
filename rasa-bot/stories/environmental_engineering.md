@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "environmental engineering"}
     - utter_more_how_environmental_engineering
+
+## combine_environmental_engineering
+* environmental_engineering_overview+environmental_engineering_summary
+    - slot{"uni": "environmental_engineering"}
+    - utter_environmental_engineering_overview
+    - utter_environmental_engineering_summary

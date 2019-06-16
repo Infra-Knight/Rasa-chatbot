@@ -60,6 +60,13 @@
 - acceptance period [computer engineering](uni)
 - admittance time [CE](uni:computer engineering)
 
+## intent:computer_engineering_overview+computer_engineering_summary
+- [computer engineering](uni) overview and summary
+- [computer engineering](uni) overview. [computer engineering](uni) summary
+- [computer engineering](uni) study program and summary
+- [computer engineering](uni) overview and [computer engineering](uni) study prgram
+- the study program of [computer engineering](uni) and summary of [computer engineering](uni)
+
 ## synonym:computer engineering
 - ce
 - CE

@@ -83,6 +83,7 @@ intents:
   - computer_engineering_curriculum_structure
   - computer_engineering_transfer_opportunity
   - computer_engineering_tuition_fee
+  - computer_engineering_overview+computer_engineering_summary
   - computer_science_overview
   - computer_science_summary
   - computer_science_admission_period
@@ -90,6 +91,7 @@ intents:
   - computer_science_curriculum_structure
   - computer_science_transfer_opportunity
   - computer_science_tuition_fee
+  - computer_science_overview+computer_science_summary
   - food_engineering_overview
   - food_engineering_summary
   - food_engineering_admission_period
@@ -97,6 +99,7 @@ intents:
   - food_engineering_curriculum_structure
   - food_engineering_transfer_opportunity
   - food_engineering_tuition_fee
+  - food_engineering_overview+food_engineering_summary
   - automotive_engineering_overview
   - automotive_engineering_summary
   - automotive_engineering_admission_period
@@ -104,6 +107,7 @@ intents:
   - automotive_engineering_curriculum_structure
   - automotive_engineering_transfer_opportunity
   - automotive_engineering_tuition_fee
+  - automotive_engineering_overview+automotive_engineering_summary
   - business_administration_overview
   - business_administration_summary
   - business_administration_admission_period
@@ -111,6 +115,7 @@ intents:
   - business_administration_curriculum_structure
   - business_administration_transfer_opportunity
   - business_administration_tuition_fee
+  - business_administration_overview+business_administration_summary
   - chemical_engineering_overview
   - chemical_engineering_summary
   - chemical_engineering_admission_period
@@ -118,6 +123,7 @@ intents:
   - chemical_engineering_curriculum_structure
   - chemical_engineering_transfer_opportunity
   - chemical_engineering_tuition_fee
+  - chemical_engineering_overview+chemical_engineering_summary
   - civil_engineering_overview
   - civil_engineering_summary
   - civil_engineering_admission_period
@@ -125,6 +131,7 @@ intents:
   - civil_engineering_curriculum_structure
   - civil_engineering_transfer_opportunity
   - civil_engineering_tuition_fee
+  - civil_engineering_overview+civil_engineering_summary
   - electrical_electronic_engineering_overview
   - electrical_electronic_engineering_summary
   - electrical_electronic_engineering_admission_period
@@ -132,6 +139,7 @@ intents:
   - electrical_electronic_engineering_curriculum_structure
   - electrical_electronic_engineering_transfer_opportunity
   - electrical_electronic_engineering_tuition_fee
+  - electrical_electronic_engineering_overview+electrical_electronic_engineering_summary
   - environmental_engineering_overview
   - environmental_engineering_summary
   - environmental_engineering_admission_period
@@ -139,6 +147,7 @@ intents:
   - environmental_engineering_curriculum_structure
   - environmental_engineering_transfer_opportunity
   - environmental_engineering_tuition_fee
+  - environmental_engineering_overview+environmental_engineering_summary
   - environmental_and_technology_management_overview
   - environmental_and_technology_management_summary
   - environmental_and_technology_management_admission_period
@@ -146,6 +155,7 @@ intents:
   - environmental_and_technology_management_curriculum_structure
   - environmental_and_technology_management_transfer_opportunity
   - environmental_and_technology_management_tuition_fee
+  - environmental_and_technology_management_overview+environmental_and_technology_management_summary
   - mechanical_engineering_overview
   - mechanical_engineering_summary
   - mechanical_engineering_admission_period
@@ -153,6 +163,7 @@ intents:
   - mechanical_engineering_curriculum_structure
   - mechanical_engineering_transfer_opportunity
   - mechanical_engineering_tuition_fee
+  - mechanical_engineering_overview+mechanical_engineering_summary
   - petroleum_engineering_overview
   - petroleum_engineering_summary
   - petroleum_engineering_admission_period
@@ -160,6 +171,7 @@ intents:
   - petroleum_engineering_curriculum_structure
   - petroleum_engineering_transfer_opportunity
   - petroleum_engineering_tuition_fee
+  - petroleum_engineering_overview+petroleum_engineering_summary
   - mechatronic_engineering_overview
   - mechatronic_engineering_summary
   - mechatronic_engineering_admission_period
@@ -167,6 +179,7 @@ intents:
   - mechatronic_engineering_curriculum_structure
   - mechatronic_engineering_transfer_opportunity
   - mechatronic_engineering_tuition_fee
+  - mechatronic_engineering_overview+mechatronic_engineering_summary
   - transportation_engineering_overview
   - transportation_engineering_summary
   - transportation_engineering_admission_period
@@ -174,6 +187,7 @@ intents:
   - transportation_engineering_curriculum_structure
   - transportation_engineering_transfer_opportunity
   - transportation_engineering_tuition_fee
+  - transportation_engineering_overview+transportation_engineering_summary
   - more_overview
   - more_summary
   - more_admission_period

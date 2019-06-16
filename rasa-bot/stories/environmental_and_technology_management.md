@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "environmental and technology management"}
     - utter_more_how_environmental_and_technology_management
+
+## combine_environmental_and_technology_management
+* environmental_and_technology_management_overview+environmental_and_technology_management_summary
+    - slot{"uni": "environmental and technology management"}
+    - utter_environmental_and_technology_management_overview
+    - utter_environmental_and_technology_management_summary

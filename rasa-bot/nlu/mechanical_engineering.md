@@ -58,3 +58,10 @@
 - When can I apply for [mechanical engineering](uni)
 - acceptance period [mechanical engineering](uni)
 - admittance time [mechanical engineering](uni)
+
+## intent:mechanical_engineering_overview+mechanical_engineering_summary
+- [mechanical engineering](uni) overview and summary
+- [mechanical engineering](uni) overview. [mechanical engineering](uni) summary
+- [mechanical engineering](uni) study program and summary
+- [mechanical engineering](uni) overview and [mechanical engineering](uni) study prgram
+- the study program of [mechanical engineering](uni) and summary of [mechanical engineering](uni)

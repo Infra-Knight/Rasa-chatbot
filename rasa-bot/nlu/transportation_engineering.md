@@ -58,3 +58,10 @@
 - When can I apply for [transportation engineering](uni)
 - acceptance period [transportation engineering](uni)
 - admittance time [transportation engineering](uni)
+
+## intent:transportation_engineering_overview+transportation_engineering_summary
+- [transportation engineering](uni) overview and summary
+- [transportation engineering](uni) overview. [transportation engineering](uni) summary
+- [transportation engineering](uni) study program and summary
+- [transportation engineering](uni) overview and [transportation engineering](uni) study prgram
+- the study program of [transportation engineering](uni) and summary of [transportation engineering](uni)

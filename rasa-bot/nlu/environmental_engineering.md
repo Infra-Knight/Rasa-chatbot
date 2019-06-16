@@ -58,3 +58,10 @@
 - When can I apply for [environmental engineering](uni)
 - acceptance period [environmental engineering](uni)
 - admittance time [environmental engineering](uni)
+
+## intent:environmental_engineering_overview+environmental_engineering_summary
+- [environmental engineering](uni) overview and summary
+- [environmental engineering](uni) overview. [environmental engineering](uni) summary
+- [environmental engineering](uni) study program and summary
+- [environmental engineering](uni) overview and [environmental engineering](uni) study prgram
+- the study program of [environmental engineering](uni) and summary of [environmental engineering](uni)

@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "mechanical engineering"}
     - utter_more_how_mechanical_engineering
+
+## combine_mechanical_engineering
+* mechanical_engineering_overview+mechanical_engineering_summary
+    - slot{"uni": "mechanical engineering"}
+    - utter_mechanical_engineering_overview
+    - utter_mechanical_engineering_summary

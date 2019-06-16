@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "civil engineering"}
     - utter_more_how_civil_engineering
+
+## combine_civil_engineering
+* civil_engineering_overview+civil_engineering_summary
+    - slot{"uni": "civil engineering"}
+    - utter_civil_engineering_overview
+    - utter_civil_engineering_summary

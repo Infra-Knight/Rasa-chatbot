@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "mechatronic engineering"}
     - utter_more_how_mechatronic_engineering
+
+## combine_mechatronic_engineering
+* mechatronic_engineering_overview+mechatronic_engineering_summary
+    - slot{"uni": "mechatronic engineering"}
+    - utter_mechatronic_engineering_overview
+    - utter_mechatronic_engineering_summary

@@ -60,6 +60,13 @@
 - acceptance period [computer science](uni)
 - admittance time [CS](uni:computer science)
 
+## intent:computer_science_overview+computer_science_summary
+- [computer science](uni) overview and summary
+- [computer science](uni) overview. [computer science](uni) summary
+- [computer science](uni) study program and summary
+- [computer science](uni) overview and [computer science](uni) study prgram
+- the study program of [computer science](uni) and summary of [computer science](uni)
+
 ## synonym:computer science
 - cs
 - CS

@@ -58,3 +58,10 @@
 - When can I apply for [mechatronic engineering](uni)
 - acceptance period [mechatronic engineering](uni)
 - admittance time [mechatronic engineering](uni)
+
+## intent:mechatronic_engineering_overview+mechatronic_engineering_summary
+- [mechatronic engineering](uni) overview and summary
+- [mechatronic engineering](uni) overview. [mechatronic engineering](uni) summary
+- [mechatronic engineering](uni) study program and summary
+- [mechatronic engineering](uni) overview and [mechatronic engineering](uni) study prgram
+- the study program of [mechatronic engineering](uni) and summary of [mechatronic engineering](uni)

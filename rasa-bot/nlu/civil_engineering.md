@@ -58,3 +58,10 @@
 - When can I apply for [civil engineering](uni)
 - acceptance period [civil engineering](uni)
 - admittance time [civil engineering](uni)
+
+## intent:civil_engineering_overview+civil_engineering_summary
+- [civil engineering](uni) overview and summary
+- [civil engineering](uni) overview. [civil engineering](uni) summary
+- [civil engineering](uni) study program and summary
+- [civil engineering](uni) overview and [civil engineering](uni) study prgram
+- the study program of [civil engineering](uni) and summary of [civil engineering](uni)

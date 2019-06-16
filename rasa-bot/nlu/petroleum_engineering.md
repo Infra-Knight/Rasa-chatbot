@@ -58,3 +58,10 @@
 - When can I apply for [petroleum engineering](uni)
 - acceptance period [petroleum engineering](uni)
 - admittance time [petroleum engineering](uni)
+
+## intent:petroleum_engineering_overview+petroleum_engineering_summary
+- [petroleum engineering](uni) overview and summary
+- [petroleum engineering](uni) overview. [petroleum engineering](uni) summary
+- [petroleum engineering](uni) study program and summary
+- [petroleum engineering](uni) overview and [petroleum engineering](uni) study prgram
+- the study program of [petroleum engineering](uni) and summary of [petroleum engineering](uni)

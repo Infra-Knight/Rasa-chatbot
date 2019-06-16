@@ -58,3 +58,10 @@
 - When can I apply for [electrical electronic engineering](uni)
 - acceptance period [electrical electronic engineering](uni)
 - admittance time [electrical electronic engineering](uni)
+
+## intent:electrical_engineering_overview+electrical_engineering_summary
+- [electrical engineering](uni) overview and summary
+- [electrical engineering](uni) overview. [electrical engineering](uni) summary
+- [electrical engineering](uni) study program and summary
+- [electrical engineering](uni) overview and [electrical engineering](uni) study prgram
+- the study program of [electrical engineering](uni) and summary of [electrical engineering](uni)

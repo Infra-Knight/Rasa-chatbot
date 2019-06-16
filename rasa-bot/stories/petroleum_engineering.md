@@ -95,3 +95,9 @@
 * more_how
     - slot{"uni": "petroleum engineering"}
     - utter_more_how_petroleum_engineering
+
+## combine_petroleum_engineering
+* petroleum_engineering_overview+petroleum_engineering_summary
+    - slot{"uni": "petroleum engineering"}
+    - utter_petroleum_engineering_overview
+    - utter_petroleum_engineering_summary

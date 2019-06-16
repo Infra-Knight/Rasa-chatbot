@@ -58,3 +58,10 @@
 - When can I apply for [business administration](uni)
 - acceptance period [business administration](uni)
 - admittance time [business administration](uni)
+
+## intent:business_administration_overview+business_administration_summary
+- [business administration](uni) overview and summary
+- [business administration](uni) overview. [business administration](uni) summary
+- [business administration](uni) study program and summary
+- [business administration](uni) overview and [business administration](uni) study prgram
+- the study program of [business administration](uni) and summary of [business administration](uni)
