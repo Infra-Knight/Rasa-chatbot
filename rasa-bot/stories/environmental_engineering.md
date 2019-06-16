@@ -98,6 +98,6 @@
 
 ## combine_environmental_engineering
 * environmental_engineering_overview+environmental_engineering_summary
-    - slot{"uni": "environmental_engineering"}
+    - slot{"uni": "environmental engineering"}
     - utter_environmental_engineering_overview
     - utter_environmental_engineering_summary
