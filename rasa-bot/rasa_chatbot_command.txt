@@ -17,7 +17,7 @@ Train core: $sudo python3 -m rasa_core.train -d domain-2-downgrade.yml -s storie
 
 
 
-Run: $sudo python3 -m rasa_core.run -d models/dialogue-update -u models/nlu/default/model_20190508-133220 --endpoints endpoints.yml --port 5002 --credentials credentials.yml --cors CORS '*' --debug --enable_api
+Run: $sudo python3 -m rasa_core.run -d models/core-multi-intents -u models/nlu/default/nlu-multi-intents --endpoints endpoints.yml --port 5002 --credentials credentials.yml --cors CORS '*' --debug --enable_api
 
 
 
