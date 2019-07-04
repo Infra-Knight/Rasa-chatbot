@@ -1,0 +1,58 @@
+Install Rasa_core: $pip install rasa_core
+
+
+
+Install Rasa_NLU:
+$apt-get -qq install -y graphviz libgraphviz-dev pkg-config && pip install pygraphviz;
+$pip install rasa_nlu[spacy];
+$python -m spacy download en;
+
+
+
+Train NLU: $python3 -m rasa_nlu.train --config nlu_config.yml --data nlu/
+
+
+
+Train core: $sudo python3 -m rasa_core.train -d domain-2-downgrade.yml -s stories/ -o models/dialogue-update -c core_config.yml
+
+
+
+Run: $sudo python3 -m rasa_core.run -d models/dialogue-update -u models/nlu/default/model_20190508-133220 --endpoints endpoints.yml --port 5002 --credentials credentials.yml --cors CORS '*' --debug --enable_api
+
+
+
+Run ngrok: $./ngrok http 5002 (cd in Downloads)
+
+
+
+Run: $python3 bot.py
+
+
+
+Run server: $python3 manage.py runserver (root folder)
+
+
+
+Run actions: $python3 -m rasa_core_sdk.endpoint --actions actions
+
+
+
+Install stack: $curl -sSL https://get.haskellstack.org/ | sh
+
+
+
+Duckling for rasa: https://github.com/facebook/duckling#quickstart
+
+
+
+Run duckling: $stack exec duckling-example-exe
+
+
+!zip -r downgrade.zip dialogue-downgrade/
+
+
+python3 -m rasa_core.test --core models/dialogue-no-memo-added-slot-english-course  -s stories/
+
+
+python3 -m rasa_core.test --core models/dialogue-no-memo-added-slot-english-course  -s stories/ -u models/nlu/default/model-no-memo
+

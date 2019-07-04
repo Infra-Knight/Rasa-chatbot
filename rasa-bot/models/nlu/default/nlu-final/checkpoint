@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/Rasa-chatbot/rasa-bot/models/nlu/default/model_20190616-084715/component_6_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/content/Rasa-chatbot/rasa-bot/models/nlu/default/model_20190616-084715/component_6_EmbeddingIntentClassifier.ckpt"

@@ -1,0 +1,318 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "GPE",
+        "uni"
+      ]
+    },
+    "utter_business_administration_admission_period": {
+      "slots": []
+    },
+    "utter_chemical_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_business_administration_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_mechanical_engineering_overview": {
+      "slots": []
+    },
+    "utter_computer_engineering_summary": {
+      "slots": []
+    },
+    "utter_electrical_electronic_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_mechanical_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_chemical_engineering_summary": {
+      "slots": []
+    },
+    "utter_computer_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_summary": {
+      "slots": []
+    },
+    "utter_transportation_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_bach_khoa_apply": {
+      "slots": []
+    },
+    "utter_computer_science_admission_period": {
+      "slots": []
+    },
+    "utter_petroleum_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_transportation_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_computer_science_summary": {
+      "slots": []
+    },
+    "utter_more_computer_engineering": {
+      "slots": []
+    },
+    "utter_transportation_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_environmental_engineering_overview": {
+      "slots": []
+    },
+    "utter_more_how_mechatronic_engineering": {
+      "slots": []
+    },
+    "utter_study_program": {
+      "slots": []
+    },
+    "utter_business_administration_curriculum_structure": {
+      "slots": []
+    },
+    "utter_more_how_environmental_and_technology_management": {
+      "slots": []
+    },
+    "utter_more_why_petroleum_engineering": {
+      "slots": []
+    },
+    "utter_english_course_overview": {
+      "slots": []
+    },
+    "utter_environmental_and_technology_management_career_opportunity": {
+      "slots": []
+    },
+    "utter_environmental_and_technology_management_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_food_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_automotive_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_more_who_mechanical_engineering": {
+      "slots": []
+    },
+    "utter_mechanical_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_transportation_engineering_summary": {
+      "slots": []
+    },
+    "utter_petroleum_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_petroleum_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_more_who_transportation_engineering": {
+      "slots": []
+    },
+    "utter_sk_community_project": {
+      "slots": []
+    },
+    "utter_more_electrical_electronic_engineering": {
+      "slots": []
+    },
+    "utter_computer_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_more_what_civil_engineering": {
+      "slots": []
+    },
+    "utter_university_contact": {
+      "slots": []
+    },
+    "utter_more_when_computer_engineering": {
+      "slots": []
+    },
+    "utter_business_administration_summary": {
+      "slots": []
+    },
+    "utter_more_what_environmental_and_technology_management": {
+      "slots": []
+    },
+    "utter_automotive_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_mechanical_engineering_summary": {
+      "slots": []
+    },
+    "utter_electrical_electronic_engineering_summary": {
+      "slots": []
+    },
+    "utter_more_when_business_administration": {
+      "slots": []
+    },
+    "utter_sk_overview": {
+      "slots": []
+    },
+    "utter_international_student_support_visa": {
+      "slots": []
+    },
+    "utter_environmental_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_overview": {
+      "slots": []
+    },
+    "utter_chemical_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_computer_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_other_question": {
+      "slots": []
+    },
+    "utter_more_where_business_administration": {
+      "slots": []
+    },
+    "utter_suggest_after_international_student_support_overview": {
+      "slots": []
+    },
+    "utter_mechatronic_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_food_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_chemical_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_civil_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_business_administration_overview": {
+      "slots": []
+    },
+    "utter_mechanical_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_more_why_electrical_electronic_engineering": {
+      "slots": []
+    },
+    "utter_civil_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_international_student_support_accommodate": {
+      "slots": []
+    },
+    "utter_more_how_computer_engineering": {
+      "slots": []
+    },
+    "utter_computer_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_more_when_computer_science": {
+      "slots": []
+    },
+    "utter_business_administration_career_opportunity": {
+      "slots": []
+    },
+    "utter_environmental_and_technology_management_summary": {
+      "slots": []
+    },
+    "utter_computer_science_overview": {
+      "slots": []
+    },
+    "utter_petroleum_engineering_summary": {
+      "slots": []
+    },
+    "utter_more_how_mechanical_engineering": {
+      "slots": []
+    },
+    "utter_computer_engineering_overview": {
+      "slots": []
+    },
+    "utter_electrical_electronic_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_more_why_computer_science": {
+      "slots": []
+    },
+    "utter_more_mechanical_engineering": {
+      "slots": []
+    },
+    "utter_more_how_environmental_engineering": {
+      "slots": []
+    },
+    "utter_petroleum_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_civil_engineering_summary": {
+      "slots": []
+    },
+    "action_get_weather": {
+      "slots": []
+    },
+    "utter_civil_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_food_engineering_curriculum_structure": {
+      "slots": []
+    },
+    "utter_transportation_engineering_career_opportunity": {
+      "slots": []
+    },
+    "utter_food_engineering_transfer_opportunity": {
+      "slots": []
+    },
+    "utter_more_where_food_engineering": {
+      "slots": []
+    },
+    "utter_chemical_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_environmental_and_technology_management_admission_period": {
+      "slots": []
+    },
+    "utter_automotive_engineering_tuition_fee": {
+      "slots": []
+    },
+    "utter_civil_engineering_admission_period": {
+      "slots": []
+    },
+    "utter_more_who_environmental_and_technology_management": {
+      "slots": []
+    },
+    "utter_dormitory_fee": {
+      "slots": []
+    },
+    "utter_more_where_chemical_engineering": {
+      "slots": []
+    },
+    "utter_business_administration_tuition_fee": {
+      "slots": []
+    }
+  },
+  "python": "3.6.7",
+  "max_histories": [
+    null,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.embedding_policy.EmbeddingPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190616-110652",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}

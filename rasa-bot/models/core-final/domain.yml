@@ -1,0 +1,1695 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_bye
+- utter_its_nice_to_meet_you
+- action_get_weather
+- action_ielts_1
+- action_toefl_1
+- utter_university_contact
+- utter_university_overview
+- utter_university_history
+- utter_why_vietnam
+- utter_international_admission
+- utter_suggest_yn_international_student_support_overview
+- utter_international_admission_requirement
+- utter_international_student_support_overview
+- utter_suggest_after_international_student_support_overview
+- utter_international_student_support_visa
+- utter_international_student_support_accommodate
+- utter_international_student_support_airport_pickup
+- utter_bach_khoa_apply
+- utter_bach_khoa_requirement
+- utter_study_program
+- utter_pre_university
+- utter_bachelor_overall
+- utter_dormitory_fee
+- utter_pre_university_overview
+- utter_english_course_overview
+- utter_english_course_duration
+- utter_sk_overview
+- utter_sk_camp
+- utter_sk_community_project
+- utter_sk_presentation_contest
+- utter_liberal_art_overview
+- utter_master_program_overview
+- utter_exchange_program_overview
+- utter_partner_university
+- utter_computer_engineering_overview
+- utter_computer_engineering_summary
+- utter_computer_engineering_admission_period
+- utter_computer_engineering_career_opportunity
+- utter_computer_engineering_curriculum_structure
+- utter_computer_engineering_transfer_opportunity
+- utter_computer_engineering_tuition_fee
+- utter_computer_science_overview
+- utter_computer_science_summary
+- utter_computer_science_admission_period
+- utter_computer_science_career_opportunity
+- utter_computer_science_curriculum_structure
+- utter_computer_science_transfer_opportunity
+- utter_computer_science_tuition_fee
+- utter_food_engineering_overview
+- utter_food_engineering_summary
+- utter_food_engineering_admission_period
+- utter_food_engineering_career_opportunity
+- utter_food_engineering_curriculum_structure
+- utter_food_engineering_transfer_opportunity
+- utter_food_engineering_tuition_fee
+- utter_automotive_engineering_overview
+- utter_automotive_engineering_summary
+- utter_automotive_engineering_admission_period
+- utter_automotive_engineering_career_opportunity
+- utter_automotive_engineering_curriculum_structure
+- utter_automotive_engineering_transfer_opportunity
+- utter_automotive_engineering_tuition_fee
+- utter_business_administration_overview
+- utter_business_administration_summary
+- utter_business_administration_admission_period
+- utter_business_administration_career_opportunity
+- utter_business_administration_curriculum_structure
+- utter_business_administration_transfer_opportunity
+- utter_business_administration_tuition_fee
+- utter_chemical_engineering_overview
+- utter_chemical_engineering_summary
+- utter_chemical_engineering_admission_period
+- utter_chemical_engineering_career_opportunity
+- utter_chemical_engineering_curriculum_structure
+- utter_chemical_engineering_transfer_opportunity
+- utter_chemical_engineering_tuition_fee
+- utter_civil_engineering_overview
+- utter_civil_engineering_summary
+- utter_civil_engineering_admission_period
+- utter_civil_engineering_career_opportunity
+- utter_civil_engineering_curriculum_structure
+- utter_civil_engineering_transfer_opportunity
+- utter_civil_engineering_tuition_fee
+- utter_electrical_electronic_engineering_overview
+- utter_electrical_electronic_engineering_summary
+- utter_electrical_electronic_engineering_admission_period
+- utter_electrical_electronic_engineering_career_opportunity
+- utter_electrical_electronic_engineering_curriculum_structure
+- utter_electrical_electronic_engineering_transfer_opportunity
+- utter_electrical_electronic_engineering_tuition_fee
+- utter_environmental_engineering_overview
+- utter_environmental_engineering_summary
+- utter_environmental_engineering_admission_period
+- utter_environmental_engineering_career_opportunity
+- utter_environmental_engineering_curriculum_structure
+- utter_environmental_engineering_transfer_opportunity
+- utter_environmental_engineering_tuition_fee
+- utter_environmental_and_technology_management_overview
+- utter_environmental_and_technology_management_summary
+- utter_environmental_and_technology_management_admission_period
+- utter_environmental_and_technology_management_career_opportunity
+- utter_environmental_and_technology_management_curriculum_structure
+- utter_environmental_and_technology_management_transfer_opportunity
+- utter_environmental_and_technology_management_tuition_fee
+- utter_mechanical_engineering_overview
+- utter_mechanical_engineering_summary
+- utter_mechanical_engineering_admission_period
+- utter_mechanical_engineering_career_opportunity
+- utter_mechanical_engineering_curriculum_structure
+- utter_mechanical_engineering_transfer_opportunity
+- utter_mechanical_engineering_tuition_fee
+- utter_petroleum_engineering_overview
+- utter_petroleum_engineering_summary
+- utter_petroleum_engineering_admission_period
+- utter_petroleum_engineering_career_opportunity
+- utter_petroleum_engineering_curriculum_structure
+- utter_petroleum_engineering_transfer_opportunity
+- utter_petroleum_engineering_tuition_fee
+- utter_mechatronic_engineering_overview
+- utter_mechatronic_engineering_summary
+- utter_mechatronic_engineering_admission_period
+- utter_mechatronic_engineering_career_opportunity
+- utter_mechatronic_engineering_curriculum_structure
+- utter_mechatronic_engineering_transfer_opportunity
+- utter_mechatronic_engineering_tuition_fee
+- utter_transportation_engineering_overview
+- utter_transportation_engineering_summary
+- utter_transportation_engineering_admission_period
+- utter_transportation_engineering_career_opportunity
+- utter_transportation_engineering_curriculum_structure
+- utter_transportation_engineering_transfer_opportunity
+- utter_transportation_engineering_tuition_fee
+- utter_more_computer_engineering
+- utter_more_who_computer_engineering
+- utter_more_what_computer_engineering
+- utter_more_when_computer_engineering
+- utter_more_where_computer_engineering
+- utter_more_why_computer_engineering
+- utter_more_how_computer_engineering
+- utter_more_computer_science
+- utter_more_who_computer_science
+- utter_more_what_computer_science
+- utter_more_when_computer_science
+- utter_more_where_computer_science
+- utter_more_why_computer_science
+- utter_more_how_computer_science
+- utter_more_food_engineering
+- utter_more_who_food_engineering
+- utter_more_what_food_engineering
+- utter_more_when_food_engineering
+- utter_more_where_food_engineering
+- utter_more_why_food_engineering
+- utter_more_how_food_engineering
+- utter_more_automotive_engineering
+- utter_more_who_automotive_engineering
+- utter_more_what_automotive_engineering
+- utter_more_when_automotive_engineering
+- utter_more_where_automotive_engineering
+- utter_more_why_automotive_engineering
+- utter_more_how_automotive_engineering
+- utter_more_business_administration
+- utter_more_who_business_administration
+- utter_more_what_business_administration
+- utter_more_when_business_administration
+- utter_more_where_business_administration
+- utter_more_why_business_administration
+- utter_more_how_business_administration
+- utter_more_chemical_engineering
+- utter_more_who_chemical_engineering
+- utter_more_what_chemical_engineering
+- utter_more_when_chemical_engineering
+- utter_more_where_chemical_engineering
+- utter_more_why_chemical_engineering
+- utter_more_how_chemical_engineering
+- utter_more_civil_engineering
+- utter_more_who_civil_engineering
+- utter_more_what_civil_engineering
+- utter_more_when_civil_engineering
+- utter_more_where_civil_engineering
+- utter_more_why_civil_engineering
+- utter_more_how_civil_engineering
+- utter_more_electrical_electronic_engineering
+- utter_more_who_electrical_electronic_engineering
+- utter_more_what_electrical_electronic_engineering
+- utter_more_when_electrical_electronic_engineering
+- utter_more_where_electrical_electronic_engineering
+- utter_more_why_electrical_electronic_engineering
+- utter_more_how_electrical_electronic_engineering
+- utter_more_environmental_engineering
+- utter_more_who_environmental_engineering
+- utter_more_what_environmental_engineering
+- utter_more_when_environmental_engineering
+- utter_more_where_environmental_engineering
+- utter_more_why_environmental_engineering
+- utter_more_how_environmental_engineering
+- utter_more_environmental_and_technology_management
+- utter_more_who_environmental_and_technology_management
+- utter_more_what_environmental_and_technology_management
+- utter_more_when_environmental_and_technology_management
+- utter_more_where_environmental_and_technology_management
+- utter_more_why_environmental_and_technology_management
+- utter_more_how_environmental_and_technology_management
+- utter_more_mechanical_engineering
+- utter_more_who_mechanical_engineering
+- utter_more_what_mechanical_engineering
+- utter_more_when_mechanical_engineering
+- utter_more_where_mechanical_engineering
+- utter_more_why_mechanical_engineering
+- utter_more_how_mechanical_engineering
+- utter_more_petroleum_engineering
+- utter_more_who_petroleum_engineering
+- utter_more_what_petroleum_engineering
+- utter_more_when_petroleum_engineering
+- utter_more_where_petroleum_engineering
+- utter_more_why_petroleum_engineering
+- utter_more_how_petroleum_engineering
+- utter_more_mechatronic_engineering
+- utter_more_who_mechatronic_engineering
+- utter_more_what_mechatronic_engineering
+- utter_more_when_mechatronic_engineering
+- utter_more_where_mechatronic_engineering
+- utter_more_why_mechatronic_engineering
+- utter_more_how_mechatronic_engineering
+- utter_more_transportation_engineering
+- utter_more_who_transportation_engineering
+- utter_more_what_transportation_engineering
+- utter_more_when_transportation_engineering
+- utter_more_where_transportation_engineering
+- utter_more_why_transportation_engineering
+- utter_more_how_transportation_engineering
+- utter_suggest_yn_study_program
+- utter_other_question
+- utter_default
+config:
+  store_entities_as_slots: true
+entities:
+- number
+- uni
+forms: []
+intents:
+- greet:
+    use_entities: true
+- bye:
+    use_entities: true
+- ans_yes:
+    use_entities: true
+- ans_no:
+    use_entities: true
+- my_name_is:
+    use_entities: true
+- get_weather:
+    use_entities: true
+- ielts_1:
+    use_entities: true
+- toefl_1:
+    use_entities: true
+- university_contact:
+    use_entities: true
+- university_overview:
+    use_entities: true
+- university_history:
+    use_entities: true
+- why_vietnam:
+    use_entities: true
+- international_admission:
+    use_entities: true
+- international_admission_requirement:
+    use_entities: true
+- international_student_support_overview:
+    use_entities: true
+- international_student_support_visa:
+    use_entities: true
+- international_student_support_accommodate:
+    use_entities: true
+- international_student_support_airport_pickup:
+    use_entities: true
+- bach_khoa_apply:
+    use_entities: true
+- bach_khoa_requirement:
+    use_entities: true
+- study_program:
+    use_entities: true
+- pre_university:
+    use_entities: true
+- bachelor_overall:
+    use_entities: true
+- dormitory_fee:
+    use_entities: true
+- pre_university_overview:
+    use_entities: true
+- english_course_overview:
+    use_entities: true
+- english_course_duration:
+    use_entities: true
+- sk_overview:
+    use_entities: true
+- sk_camp:
+    use_entities: true
+- sk_community_project:
+    use_entities: true
+- sk_presentation_contest:
+    use_entities: true
+- liberal_art_overview:
+    use_entities: true
+- master_program_overview:
+    use_entities: true
+- exchange_program_overview:
+    use_entities: true
+- partner_university:
+    use_entities: true
+- computer_engineering_overview:
+    use_entities: true
+- computer_engineering_summary:
+    use_entities: true
+- computer_engineering_admission_period:
+    use_entities: true
+- computer_engineering_career_opportunity:
+    use_entities: true
+- computer_engineering_curriculum_structure:
+    use_entities: true
+- computer_engineering_transfer_opportunity:
+    use_entities: true
+- computer_engineering_tuition_fee:
+    use_entities: true
+- computer_engineering_overview+computer_engineering_summary:
+    use_entities: true
+- computer_science_overview:
+    use_entities: true
+- computer_science_summary:
+    use_entities: true
+- computer_science_admission_period:
+    use_entities: true
+- computer_science_career_opportunity:
+    use_entities: true
+- computer_science_curriculum_structure:
+    use_entities: true
+- computer_science_transfer_opportunity:
+    use_entities: true
+- computer_science_tuition_fee:
+    use_entities: true
+- computer_science_overview+computer_science_summary:
+    use_entities: true
+- food_engineering_overview:
+    use_entities: true
+- food_engineering_summary:
+    use_entities: true
+- food_engineering_admission_period:
+    use_entities: true
+- food_engineering_career_opportunity:
+    use_entities: true
+- food_engineering_curriculum_structure:
+    use_entities: true
+- food_engineering_transfer_opportunity:
+    use_entities: true
+- food_engineering_tuition_fee:
+    use_entities: true
+- food_engineering_overview+food_engineering_summary:
+    use_entities: true
+- automotive_engineering_overview:
+    use_entities: true
+- automotive_engineering_summary:
+    use_entities: true
+- automotive_engineering_admission_period:
+    use_entities: true
+- automotive_engineering_career_opportunity:
+    use_entities: true
+- automotive_engineering_curriculum_structure:
+    use_entities: true
+- automotive_engineering_transfer_opportunity:
+    use_entities: true
+- automotive_engineering_tuition_fee:
+    use_entities: true
+- automotive_engineering_overview+automotive_engineering_summary:
+    use_entities: true
+- business_administration_overview:
+    use_entities: true
+- business_administration_summary:
+    use_entities: true
+- business_administration_admission_period:
+    use_entities: true
+- business_administration_career_opportunity:
+    use_entities: true
+- business_administration_curriculum_structure:
+    use_entities: true
+- business_administration_transfer_opportunity:
+    use_entities: true
+- business_administration_tuition_fee:
+    use_entities: true
+- business_administration_overview+business_administration_summary:
+    use_entities: true
+- chemical_engineering_overview:
+    use_entities: true
+- chemical_engineering_summary:
+    use_entities: true
+- chemical_engineering_admission_period:
+    use_entities: true
+- chemical_engineering_career_opportunity:
+    use_entities: true
+- chemical_engineering_curriculum_structure:
+    use_entities: true
+- chemical_engineering_transfer_opportunity:
+    use_entities: true
+- chemical_engineering_tuition_fee:
+    use_entities: true
+- chemical_engineering_overview+chemical_engineering_summary:
+    use_entities: true
+- civil_engineering_overview:
+    use_entities: true
+- civil_engineering_summary:
+    use_entities: true
+- civil_engineering_admission_period:
+    use_entities: true
+- civil_engineering_career_opportunity:
+    use_entities: true
+- civil_engineering_curriculum_structure:
+    use_entities: true
+- civil_engineering_transfer_opportunity:
+    use_entities: true
+- civil_engineering_tuition_fee:
+    use_entities: true
+- civil_engineering_overview+civil_engineering_summary:
+    use_entities: true
+- electrical_electronic_engineering_overview:
+    use_entities: true
+- electrical_electronic_engineering_summary:
+    use_entities: true
+- electrical_electronic_engineering_admission_period:
+    use_entities: true
+- electrical_electronic_engineering_career_opportunity:
+    use_entities: true
+- electrical_electronic_engineering_curriculum_structure:
+    use_entities: true
+- electrical_electronic_engineering_transfer_opportunity:
+    use_entities: true
+- electrical_electronic_engineering_tuition_fee:
+    use_entities: true
+- electrical_electronic_engineering_overview+electrical_electronic_engineering_summary:
+    use_entities: true
+- environmental_engineering_overview:
+    use_entities: true
+- environmental_engineering_summary:
+    use_entities: true
+- environmental_engineering_admission_period:
+    use_entities: true
+- environmental_engineering_career_opportunity:
+    use_entities: true
+- environmental_engineering_curriculum_structure:
+    use_entities: true
+- environmental_engineering_transfer_opportunity:
+    use_entities: true
+- environmental_engineering_tuition_fee:
+    use_entities: true
+- environmental_engineering_overview+environmental_engineering_summary:
+    use_entities: true
+- environmental_and_technology_management_overview:
+    use_entities: true
+- environmental_and_technology_management_summary:
+    use_entities: true
+- environmental_and_technology_management_admission_period:
+    use_entities: true
+- environmental_and_technology_management_career_opportunity:
+    use_entities: true
+- environmental_and_technology_management_curriculum_structure:
+    use_entities: true
+- environmental_and_technology_management_transfer_opportunity:
+    use_entities: true
+- environmental_and_technology_management_tuition_fee:
+    use_entities: true
+- environmental_and_technology_management_overview+environmental_and_technology_management_summary:
+    use_entities: true
+- mechanical_engineering_overview:
+    use_entities: true
+- mechanical_engineering_summary:
+    use_entities: true
+- mechanical_engineering_admission_period:
+    use_entities: true
+- mechanical_engineering_career_opportunity:
+    use_entities: true
+- mechanical_engineering_curriculum_structure:
+    use_entities: true
+- mechanical_engineering_transfer_opportunity:
+    use_entities: true
+- mechanical_engineering_tuition_fee:
+    use_entities: true
+- mechanical_engineering_overview+mechanical_engineering_summary:
+    use_entities: true
+- petroleum_engineering_overview:
+    use_entities: true
+- petroleum_engineering_summary:
+    use_entities: true
+- petroleum_engineering_admission_period:
+    use_entities: true
+- petroleum_engineering_career_opportunity:
+    use_entities: true
+- petroleum_engineering_curriculum_structure:
+    use_entities: true
+- petroleum_engineering_transfer_opportunity:
+    use_entities: true
+- petroleum_engineering_tuition_fee:
+    use_entities: true
+- petroleum_engineering_overview+petroleum_engineering_summary:
+    use_entities: true
+- mechatronic_engineering_overview:
+    use_entities: true
+- mechatronic_engineering_summary:
+    use_entities: true
+- mechatronic_engineering_admission_period:
+    use_entities: true
+- mechatronic_engineering_career_opportunity:
+    use_entities: true
+- mechatronic_engineering_curriculum_structure:
+    use_entities: true
+- mechatronic_engineering_transfer_opportunity:
+    use_entities: true
+- mechatronic_engineering_tuition_fee:
+    use_entities: true
+- mechatronic_engineering_overview+mechatronic_engineering_summary:
+    use_entities: true
+- transportation_engineering_overview:
+    use_entities: true
+- transportation_engineering_summary:
+    use_entities: true
+- transportation_engineering_admission_period:
+    use_entities: true
+- transportation_engineering_career_opportunity:
+    use_entities: true
+- transportation_engineering_curriculum_structure:
+    use_entities: true
+- transportation_engineering_transfer_opportunity:
+    use_entities: true
+- transportation_engineering_tuition_fee:
+    use_entities: true
+- transportation_engineering_overview+transportation_engineering_summary:
+    use_entities: true
+- more_overview:
+    use_entities: true
+- more_summary:
+    use_entities: true
+- more_admission_period:
+    use_entities: true
+- more_career_opportunity:
+    use_entities: true
+- more_curriculum_structure:
+    use_entities: true
+- more_transfer_opportunity:
+    use_entities: true
+- more_tuition_fee:
+    use_entities: true
+- more:
+    use_entities: true
+- more_who:
+    use_entities: true
+- more_what:
+    use_entities: true
+- more_when:
+    use_entities: true
+- more_where:
+    use_entities: true
+- more_why:
+    use_entities: true
+- more_how:
+    use_entities: true
+slots:
+  GPE:
+    auto_fill: true
+    initial_value: Ho Chi Minh
+    type: rasa_core.slots.TextSlot
+  PERSON:
+    auto_fill: true
+    initial_value: human
+    type: rasa_core.slots.TextSlot
+  number:
+    auto_fill: true
+    initial_value: null
+    max_value: 1.0
+    min_value: 0.0
+    type: rasa_core.slots.FloatSlot
+  uni:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - ielts
+    - toefl ibt
+    - university
+    - study program
+    - international admission
+    - international support
+    - pre university
+    - english course
+    - soft skill
+    - bachelor program
+    - master program
+    - computer engineering
+    - computer science
+    - food engineering
+    - automotive engineering
+    - business administration
+    - chemical engineering
+    - civil engineering
+    - electrical electronic engineering
+    - environmental engineering
+    - environmental and technology management
+    - mechanical engineering
+    - petroleum engineering
+    - mechatronic engineering
+    - transportation engineering
+templates:
+  utter_automotive_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_automotive_engineering_career_opportunity:
+  - text: "Students graduating from this program are able to work across the whole\
+      \ product design lifecycle. Graduates can do one or more of the three branches\
+      \ of the Automotive Engineering fields: \n &bull; Design: Designing new products\
+      \ and improving the existing ones. \n &bull; Research and Development: Finding\
+      \ solutions to engineering problems \n &bull; Production: Planning and designing\
+      \ new production process. \n Graduates may also work in any consulting establishments\
+      \ and Technology Transfer Center related to automotive engineering."
+  utter_automotive_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/automotive-engineering/
+  utter_automotive_engineering_overview:
+  - text: "Automotive Engineering combines the science of mechanics, electricals and\
+      \ materials, which provides students with the basic principles of engineering\
+      \ together with the modern vehicle design requirements in terms of safety, fuel\
+      \ economy and industrial manufacturing.\n\nI can also provide information about\
+      \ \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_automotive_engineering_summary:
+  - text: "Bachelor of Engineering (Automotive) \n Duration: 4 years \n No. of credits:\
+      \ 140 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_automotive_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Automative Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to our partner universities the later 02 years to complete their\
+      \ study for Bachelor degree. The official bachelor degree is awarded by the\
+      \ partner universities. \n University of Technology is currently working to\
+      \ associate the program with our partner universities in USA and Australia.\
+      \ The information will be updated here soon."
+  utter_automotive_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_bach_khoa_apply:
+  - text: You can apply online http://oisp.hcmut.edu.vn/en/admission/apply-online/
+  utter_bach_khoa_requirement:
+  - text: "Required minimum score for High School and other accredited international\
+      \ qualifications: \n &bull; High School Average Score and/or High School Graduation\
+      \ Score: 65% \n &bull; International Baccalaureate: 26 points (Max. 42 points)\
+      \ \n &bull; GCE Advanced Level*: Math & science subjects are grade B or above,\
+      \ other subjects are not below grade C \n &bull; SAT (Scholastic Assessment\
+      \ Test): 1190 points (Max. 1600 points) \n &bull; ACT (American College Testing):\
+      \ 24 points (Max. 36 points) \n &bull; BTEC Level 3 Extended Diploma: Math &\
+      \ science subjects are grade B or above, other subjects are not below grade\
+      \ C You can click http://oisp.hcmut.edu.vn/en/admission/admission-requirements/"
+  utter_bachelor_overall:
+  - text: "BACHELOR PROGRAM: Undergraduate Admission – open for all students who complete\
+      \ their high school study with 14 difference majors including \n &bull; AUTOMOTIVE\
+      \ ENGINEERING \n &bull; BUSINESS ADMINISTRATION \n &bull; CHEMICAL ENGINEERING\
+      \ \n &bull; CIVIL ENGINEERING \n &bull; COMPUTER ENGINEERING \n &bull; COMPUTER\
+      \ SCIENCE \n &bull; ELECTRICAL ELECTRONICS ENGINEERING \n &bull; NATURAL RESOURCES\
+      \ ENVIRONMENTAL MANAGEMENT \n &bull; ENVIROMENTAL ENGINEERING \n &bull; FOOD\
+      \ TECHNOLOGY ENGINEERING \n &bull; MECHATRONICS ENGINEERING \n &bull; MECHANICAL\
+      \ ENGINEERING \n &bull; PETROLEUM ENGINEERING \n &bull; TRANSPORTATION ENGINEERING"
+  utter_business_administration_admission_period:
+  - text: "Ho Chi Minh City University of Technology receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_business_administration_career_opportunity:
+  - text: "After graduation, students will have opportunity to work in the field of:\
+      \ \n &bull; Business development: market research, business planning, community\
+      \ relations, developing new products and services … \n &bull; Accounting & financial\
+      \ management: monitoring and management of the company’s accounting, financial\
+      \ activities. \n &bull; Investment analysis: preparation and analysis of investment\
+      \ projects, corporate financial analysis, stock data processing \n &bull; Administrative\
+      \ & personnel management, planning and organizing training sessions…"
+  utter_business_administration_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/business-administration/
+  utter_business_administration_overview:
+  - text: "Business Administration program provides students with knowledge of management\
+      \ which covers various aspects including Marketing, Planning, Accounting, Finance,\
+      \ and Manufacturing. \n Graduates will have great employment prospect both locally\
+      \ and internationally in many related fields as accountants, financial supervisor,\
+      \  sales, marketing, consultant, etc.\n\nI can also provide information about\
+      \ \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_business_administration_summary:
+  - text: "Bachelor of Industrial Management \n Duration: 4 years \n No. of credits:\
+      \ 144 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_business_administration_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Business Administration awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ HCMUT (University of Technology), students with financial and academic eligibility\
+      \ may transfer to our following partner universities in Australia and USA the\
+      \ later 02 years to complete their study for Bachelor degree: \n &bull; University\
+      \ of Illinois Springfield (USA) \n &bull; Macquarie University (Australia) \n\
+      \ &bull; The official bachelor degree is awarded by the partner university.\
+      \ \n The advantage of this option is that the student can save about 50% total\
+      \ fee (tuition fee and living expense) compared to studying for full 4 years\
+      \ in USA to get a Bachelor Degree awarded by the partner university."
+  utter_business_administration_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_bye:
+  - text: Bye see you later :(
+  utter_chemical_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_chemical_engineering_career_opportunity:
+  - text: "Graduates have solid professional knowledge to work in areas such as mineral\
+      \ mining, pharmaceutical, biotechnology, food, alcohol, plastic, packaging…\
+      \ \n Career opportunities include works on operational management and operating\
+      \ chemical manufacturing technology equipment systems, system design and calculation,\
+      \ product research and development, product analysis – management… \n Companies\
+      \ often recruit graduates of this sector are: \n &bull; Oil and Gas: Petrovietnam\
+      \ – Vietnam Oil and Gas Group, Saigon Petro \n &bull; Design consulting firm\
+      \ on technological process: Techip , Toyo,.. \n &bull;  Food – pharmaceutical\
+      \ companies: Acecook , Domesco, Coca-Cola,… \n &bull; Companies manufacturing\
+      \ chemical product: Unilever, P&G,… \n &bull; Environment remediation companies:\
+      \ Greentech,… \n &bull; Cement companies: Holcim, HaTien 1,… \n &bull; Fertilizer:\
+      \ Ca Mau Fertilizer Plant, Phu My Fertilizer Plant,…"
+  utter_chemical_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/chemical-engineering/
+  utter_chemical_engineering_overview:
+  - text: "Closely linked with the fundamental subjects of chemistry, biology, mathematics,\
+      \ and physics — and in close collaboration with fellow engineering disciplines.\
+      \ Chemical Engineering provides students with  essential knowledge in physical,\
+      \ chemical, and biological processes, engineering design, and synthesis skills;\
+      \ creatively shape and solve complex problems.\n\nI can also provide information\
+      \ about \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_chemical_engineering_summary:
+  - text: "Bachelor of Engineering (Chemical) \n Duration: 4 years \n No. of credits:\
+      \ 144 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_chemical_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Chemical Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ HCMUT (University of Technology), students with financial and academic eligibility\
+      \ may transfer to our following partner universities in Australia and USA the\
+      \ later 02 years to complete their study for Bachelor degree: \n &bull; University\
+      \ of Illinois Springfield (USA) \n &bull; Macquarie University (Australia) \n\
+      \ The official bachelor degree is awarded by the partner university. \n The\
+      \ advantage of this option is that the student can save about 50% total fee\
+      \ (tuition fee and living expense) compared to studying for full 4 years in\
+      \ USA to get a Bachelor Degree awarded by the partner university."
+  utter_chemical_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_civil_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_civil_engineering_career_opportunity:
+  - text: "After graduating the Civil Engineering from Ho Chi Minh City University\
+      \ of Technology  (Ho Chi Minh City University of Technology), engineers can\
+      \ take a lot of work in the fields of Construction and Civil Engineering as:\
+      \ \n &bull; Design and constructions, design verification, construction project\
+      \ management, construction examination and inspection \n &bull; To become a\
+      \ lecturers and research staffs for international universities \n &bull; Companies\
+      \ recruiting graduates from University of Technology are Bachy Soletance, Meinhardt,\
+      \ Apave, Aurecon, CPG, Arup, Unicons, Coteccons, Cofico,…"
+  utter_civil_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/civil-engineering/
+  utter_civil_engineering_overview:
+  - text: "The curriculum provides students with skills and knowledge of planning,\
+      \ designing building construction and maintenance of civil engineering projects.\
+      \ \n Graduates can work in international construction & civil companies as a\
+      \ designer, construction project manager and so on… enables future engineers\
+      \ to be at the forefront in serving society.\n\nI can also provide information\
+      \ about \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_civil_engineering_summary:
+  - text: "Bachelor of Engineering (Civil) \n Duration: 4 years \n No. of credits:\
+      \ 143 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_civil_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Civil Engineering awarded by\
+      \ University of Technology . \n Option 2: \n After completing 02 years at University\
+      \ of Technology , students with financial and academic eligibility may transfer\
+      \ to our following parner universities in Australia and USA the later 02 years\
+      \ to complete their study for Bachelor degree: \n &bull; Griffith University\
+      \ (Australia) \n &bull; The Catholic University of America (USA) \n &bull; The\
+      \ official bachelor degree is awarded by the partner university. \n The advantage\
+      \ of this option is that the student can save about 50% total fee (tuition fee\
+      \ and living expense) compared to studying for full 4 years in Australia to\
+      \ get a Bachelor Degree awarded by the partner university."
+  utter_civil_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_computer_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_computer_engineering_career_opportunity:
+  - text: "\n Graduates of this major will have a wide range of career opportunities;\
+      \ they have the option of moving into hardware or software positions, or blending\
+      \ the two. Typical industries hiring computer engineers, include financial services,\
+      \ computer manufacturers, chemical companies, defense contractors, consulting,\
+      \ transportation, manufacturing, and consumer goods. Computer engineers are\
+      \ equally successful in large multinational firms and small startups. \n Graduates\
+      \ of Computer Engineering can take a lot of work in the fields of Computer and\
+      \ Information Technology such as: \n &bull; Designing and constructing of software,\
+      \ hardware for automatic control equipment like the control device in automobile,\
+      \ electronic equipments, barcode reading equipments, industrial robots, industrial\
+      \ chains. \n &bull; Managing and building security solutions for computer system\
+      \ and computer network. \n &bull; Working for software outsourcing companies\
+      \ in the USA, Japan and Europe markets. \n &bull; Consulting, appraising and\
+      \ developing information technology projects and solutions."
+  utter_computer_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/computer-engineering/
+  utter_computer_engineering_overview:
+  - text: "Computer Engineering focuses on design, analysis, and application of computers\
+      \ and its system components. \n The program provides a strong and broad technical\
+      \ foundation, professional engineering skills, leadership ability, and a well-rounded\
+      \  experience.\n\nI can also provide information about \n &bull; Admission process\
+      \ \n &bull; Tuition fee \n &bull; Career opportunity \n &bull; Transfer opportunity\
+      \ \n &bull; Curriculum structure \n Just feel free to ask me !"
+  utter_computer_engineering_summary:
+  - text: "Bachelor of Engineering (Computer) \n Duration: 4 years \n No. of credits:\
+      \ 143 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_computer_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Computer Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to our following oversea partner universities in Australia &\
+      \ USA the later 02 years to complete their study for Bachelor degree: \n &bull;\
+      \ The University of Queensland, Australia \n &bull; The University of Adelaide,\
+      \ Australia \n &bull; The Catholic University of America, USA"
+  utter_computer_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_computer_science_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_computer_science_career_opportunity:
+  - text: "After graduating the Computer Science from  Ho Chi Minh City University\
+      \ of Technology  (Ho Chi Minh City University of Technology), engineers can\
+      \ take a lot of work in the fields of Computer and Information Technology as:\
+      \ \n &bull; Software designing and software constructing for banks, financial,\
+      \ administrative and commercial organizations, etc. \n &bull; Application designing\
+      \ and application constructing for mobile devices, E-Commerce applications,\
+      \ games on computer and mobile devices, etc. \n &bull; Managing and building\
+      \ security solutions for computer system and computer network. \n &bull; Working\
+      \ for software outsourcing companies in the USA, Japan and Europe markets."
+  utter_computer_science_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/computer-science/
+  utter_computer_science_overview:
+  - text: "Computer Science educate students in the theory and application of computer\
+      \ technology. \n Graduate with the most fundamental and essential knowledge\
+      \ from logical designing, analyzing to micro-processors and embedded devices.\n\
+      \nI can also provide information about \n &bull; Admission process \n &bull;\
+      \ Tuition fee \n &bull; Career opportunity \n &bull; Transfer opportunity \n\
+      \ &bull; Curriculum structure \n Just feel free to ask me !"
+  utter_computer_science_summary:
+  - text: "Bachelor of Engineering (Computer Science) \n Duration: 4 years \n No.\
+      \ of credits: 138 credits \n Medium of instruction: English \n Tuition fee:\
+      \ approx. 16,700 USD*"
+  utter_computer_science_transfer_opportunity:
+  - text: "Students have 2 options: \n &bull; Option 1: \n Students study at University\
+      \ of Technology for 4 years and get the Bachelor of Computer Science awarded\
+      \ by University of Technology . \n &bull; Option 2: \n After completing 02 years\
+      \ at University of Technology , students with financial and academic eligibility\
+      \ may transfer to our following oversea partner universities in Australia &\
+      \ USA the later 02 years to complete their study for Bachelor degree: \n &bull;\
+      \ The University of Queensland, Australia \n &bull; The University of Adelaide,\
+      \ Australia \n &bull; The Catholic University of America, USA \n The official\
+      \ bachelor degree is awarded by the partner university. \n The advantage of\
+      \ this option is that the student can save about 50% total fee (tuition fee\
+      \ and living expense) compared to studying for full 4 years in Australia or\
+      \ USA to get a Bachelor Degree awarded by the partner university."
+  utter_computer_science_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_default:
+  - text: Sorry, I do not understand.
+  utter_dormitory_fee:
+  - text: Dormitory fee is around 100 USD/ person /month
+  utter_electrical_electronic_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_electrical_electronic_engineering_career_opportunity:
+  - text: "After graduating the Electrical & Electronic Engineering from Ho Chi Minh\
+      \ City University of Technology, engineers can take a lot of work in the field\
+      \ of Computer and Information Technology as: \n Design and construction of software,\
+      \ hardware for automatic control equipment like the control device in automobile,\
+      \ electronic equipments, barcode reading equipments, industrial robots, industrial\
+      \ chains. \n Managing and building security solutions for computer system and\
+      \ computer network. \n Working for software outsourcing companies in the USA,\
+      \ Japan and Europe markets. \n Consulting, appraising and developing information\
+      \ technology projects and solutions."
+  utter_electrical_electronic_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/electrical-electronic-engineering/
+  utter_electrical_electronic_engineering_overview:
+  - text: "The program is a part of the National Project and operates according to\
+      \ the latest curriculum from UIUC (USA). \n The program equip students with\
+      \ modern knowledge, professional skills and abilities to use informatics & communication\
+      \ tools. It was developed to apply advanced training technology from United\
+      \ States partner universities.\n\nI can also provide information about \n &bull;\
+      \ Admission process \n &bull; Tuition fee \n &bull; Career opportunity \n &bull;\
+      \ Transfer opportunity \n &bull; Curriculum structure \n Just feel free to ask\
+      \ me !"
+  utter_electrical_electronic_engineering_summary:
+  - text: "Bachelor of Engineering (Electrical – Electronics) \n Duration: 4 years\
+      \ \n No. of credits: 144 credits \n Medium of instruction: English \n Tuition\
+      \ fee: approx. 16,700 USD*"
+  utter_electrical_electronic_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students taking this program will\
+      \ spend 04 years on studying at HCMUT. Students graduated from this program\
+      \ will receive the degree – Bachelor of Electrical and Electronic Engineering\
+      \ by HCMUT \n &bull; The first three years: The program is completely similar\
+      \ to the program at UIUC. Students will focus on learning the interdisciplinary\
+      \ basic knowledge. \n &bull; The last year: Students will choose one of the\
+      \ three major concentrations to study, including Power and Energy System, Communication\
+      \ System and Control Engineering. \n Option 2: \n After completing 02 years\
+      \ at HCMUT, students with financial and academic eligibility may transfer to\
+      \ our following oversea partner universities in Australia & USA the later 02\
+      \ years to complete their study for Bachelor degree: \n &bull; University of\
+      \ Illinois at Urbana Champaign (USA) \n &bull; Catholic University of America\
+      \ (USA) \n &bull; Rutgers University (USA) \n &bull; The University of Queensland\
+      \ (Australia) \n &bull; Macquarie University (Australia) \n The official bachelor\
+      \ degree is awarded by the partner university. \n The advantage of this option\
+      \ is that the student can save about 50% total fee (tuition fee and living expense)\
+      \ compared to studying for full 4 years in Australia and USA to get a Bachelor\
+      \ Degree awarded by the partner university."
+  utter_electrical_electronic_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_english_course_duration:
+  - text: "Total duration: 220 hours \n 5 days per week: from Monday to Friday, Septerber\
+      \ – December. \n 4 hours per day: Morning shift (7.15 AM – 11.30 AM) & Afternoon\
+      \ shift (12.45 PM – 17.00 PM)"
+  utter_english_course_overview:
+  - text: "The course aims to equip students with Academic English and essential skills\
+      \ for learning at University level. In particular, all four communicative skills,\
+      \ as well as academic skills, will be enhanced: \n Writing: problems analysis\
+      \ and report writing (referencing, citing, summarizing, etc.) \n Speaking: group\
+      \ discussion, idea expression and sharing, presentation (tactics in delivering\
+      \ oral presentation and using body languages, etc.) \n Reading: academic context\
+      \ comprehension, scientific research understanding \n Listening: note-taking\
+      \ skills, academic listening comprehension \n The program is divided into two\
+      \ modules: \n IELTS Simulation Module equips students with necessary knowledge\
+      \ and skills to conduct the IELTS exam. \n EAP Module (English for Academic\
+      \ Purpose) focuses on such research skills as Writing, Presentation, Research\
+      \ and Report."
+  utter_environmental_and_technology_management_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_environmental_and_technology_management_career_opportunity:
+  - text: Environmental Management and Technology engineers can meet the recruitment
+      needs and work at the national and local state agency on environment, projects
+      management board, manufacturing enterprises, industrial areas, non-governmental
+      organizations, domestic and foreign environmental consulting firms and centers,
+      research institutes and universities specialized in environmental resource management.
+  utter_environmental_and_technology_management_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/environmental-management-and-technology/
+  utter_environmental_and_technology_management_overview:
+  - text: "Environmental Management and Technology Programs students are equipped\
+      \ with updated knowledge basis of environmental and natural resources management,\
+      \ remote sensing and GIS applications in natural resources management; knowledge\
+      \ of treatment technology to water supply, waste water, waste gas and solid\
+      \ waste.\n\nI can also provide information about \n &bull; Admission process\
+      \ \n &bull; Tuition fee \n &bull; Career opportunity \n &bull; Transfer opportunity\
+      \ \n &bull; Curriculum structure \n Just feel free to ask me !"
+  utter_environmental_and_technology_management_summary:
+  - text: "Bachelor of Engineering (Environmental Management and Technology) \n Duration:\
+      \ 4 years \n No. of credits: 144 credits \n Medium of instruction: English \n\
+      \ Tuition fee: approx. 16,700 USD*"
+  utter_environmental_and_technology_management_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Environmental Management &\
+      \ Technology awarded by University of Technology . \n Option 2: \n After completing\
+      \ 02 years at HCMUT (University of Technology), students with financial and\
+      \ academic eligibility may transfer to Griffith University (Australia) the later\
+      \ 02 years to complete their study for Bachelor degree. The official bachelor\
+      \ degree is awarded by the Griffith University (Australia). \n The advantage\
+      \ of this option is that the student can save about 50% total fee (tuition fee\
+      \ and living expense) compared to studying for full 4 years in Australia to\
+      \ get a Bachelor Degree awarded by the Griffith University (Australia)."
+  utter_environmental_and_technology_management_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_environmental_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_environmental_engineering_career_opportunity:
+  - text: "Students graduating from this program are involved in efforts to improve\
+      \ recycling, waste disposal, public health, and control of water and air pollution.\
+      \ Graduates may work on designing, planning, and implementing measures to prevent,\
+      \ control, or remediate environmental hazards. \n Graduates can work in the\
+      \ following areas related (but not restricted to): \n &bull; Design and evaluation\
+      \ of erosion control systems \n &bull; Systems and processes for management\
+      \ and utilization of wastes \n &bull; Design and management of water control\
+      \ systems \n &bull; Inspection, evaluation, and reporting for regulatory compliance\
+      \ \n &bull; Air quality monitoring, air emission measurement and modeling, air\
+      \ pollution mitigation and control, and air dispersion modeling \n &bull; Design\
+      \ of animal housing \n &bull; Environmental management \n &bull; Expert witness"
+  utter_environmental_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/environmental-engineering/
+  utter_environmental_engineering_overview:
+  - text: "Environmental Engineering provides students with knowledge of chemical,\
+      \ physical and biological processes in environmental pollution control; techniques\
+      \ and construction operating management or environmental control system such\
+      \ as disposing of urban and industrial sewage; air pollution control, disposing\
+      \ of solid waste and toxics; and recycle, reuse, renew wastes, etc.\n\nI can\
+      \ also provide information about \n &bull; Admission process \n &bull; Tuition\
+      \ fee \n &bull; Career opportunity \n &bull; Transfer opportunity \n &bull;\
+      \ Curriculum structure \n Just feel free to ask me !"
+  utter_environmental_engineering_summary:
+  - text: "Bachelor of Engineering (Environmental) \n Duration: 4 years \n No. of\
+      \ credits: 140 credits \n Medium of instruction: English \n Tuition fee: approx.\
+      \ 16,700 USD*"
+  utter_environmental_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Automative Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to our partner universities the later 02 years to complete their\
+      \ study for Bachelor degree. The official bachelor degree is awarded by the\
+      \ partner universities. \n University of Technology is currently working to\
+      \ associate the program with our partner universities in USA and Australia.\
+      \ The information will be updated here soon."
+  utter_environmental_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_exchange_program_overview:
+  - text: "To promote cultural understanding throughout the world, Ho Chi Minh City\
+      \ University of Technology  (Ho Chi Minh City University of Technology) offers\
+      \ opportunities and encourages international students coming to Vietnam to experience\
+      \ student life abroad. \n Students could choose to exchange from one semester\
+      \ to one year at Ho Chi Minh City University of Technology . We have developed\
+      \ close association with distinguished Universities throughout the world. \n\
+      \ For more infomation: http://oisp.hcmut.edu.vn/en/study-programs/exchange-program/"
+  utter_food_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_food_engineering_career_opportunity:
+  - text: "Food engineers use their skills to design sustainable and environmentally\
+      \ responsible food processes for manufacturing safe, tasty, healthy, convenient\
+      \ food products as consumer awareness and demand for a safe and abundant supply\
+      \ of food have increased \n Graduates have a wide range of jobs to pursue their\
+      \ careers. However, the jobs are usually grouped in the following 4 categories:\
+      \ \n &bull; Product development: working with the food products, packaging,\
+      \ etc. \n &bull; Engineering: developing the processes and machinery to make\
+      \ and store the food. \n &bull; Technical management: overseeing the way the\
+      \ food is made, packaged and stored. \n &bull; Hygiene and food safety."
+  utter_food_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/food-engineering/
+  utter_food_engineering_overview:
+  - text: "Students interested in the production, processing, packaging, safety and/or\
+      \ transportation of the world’s food supply will be taught to combine engineering\
+      \ (fluid mechanics, heat transfer, and mass transfer, etc.), math, and science\
+      \ (biology, chemistry, and physics) with advanced courses in food chemistry,\
+      \ microbiology, food processing operations, and engineering design.\n\nI can\
+      \ also provide information about \n &bull; Admission process \n &bull; Tuition\
+      \ fee \n &bull; Career opportunity \n &bull; Transfer opportunity \n &bull;\
+      \ Curriculum structure \n Just feel free to ask me !"
+  utter_food_engineering_summary:
+  - text: "Bachelor of Engineering (Food) \n &bull; Duration: 4 years \n &bull; No.\
+      \ of credits: 141 credits \n &bull;  Medium of instruction: English \n &bull;\
+      \ Tuition fee: approx. 16,700 USD*"
+  utter_food_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Food Engineering awarded by\
+      \ University of Technology . \n Option 2: \n After completing 02 years at University\
+      \ of Technology , students with financial and academic eligibility may transfer\
+      \ to our partner universities the later 02 years to complete their study for\
+      \ Bachelor degree. The official bachelor degree is awarded by the partner universities.\
+      \ \n University of Technology is currently working to associate the program\
+      \ with our partner universities in USA and Australia. The information will be\
+      \ updated here soon."
+  utter_food_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_greet:
+  - text: Hello, human!
+  - text: Welcome, human!
+  - text: At your service.
+  - text: Good day, human!
+  - text: Greetings!
+  utter_international_admission:
+  - text: "For internationl students who want to study at Ho Chi Minh City University\
+      \ of Technology have 2 options: \n &bull; Students study full 4 years in Vietnam\
+      \ & get the Bachelor Degree awarded by  Ho Chi Minh City University of Technology\
+      \ upon completion. \n Bachelor’s Degree from Ho Chi Minh City University of\
+      \ Technology is recognized in Europe, USA, Australia, Asian countries and around\
+      \ the world. \n &bull; Transfer to Partner Universities: \n After completing\
+      \ 02 years at Ho Chi Minh City University of Technology, students with financial\
+      \ and academic eligibility can choose to transfer to our partner universities\
+      \ in USA or Australia the later 02 years to complete their study for Bachelor\
+      \ degree. \n You can apply online here: http://oisp.hcmut.edu.vn/en/admission/apply-online/"
+  utter_international_admission_requirement:
+  - text: "Required minimum score for High School and other accredited international\
+      \ qualifications: \n &bull; High School Average Score and/or High School Graduation\
+      \ Score: 65% \n &bull; International Baccalaureate: 26 points (Max. 42 points)\
+      \ \n &bull; GCE Advanced Level*: Math & science subjects are grade B or above,\
+      \ other subjects are not below grade C \n &bull; SAT (Scholastic Assessment\
+      \ Test): 1190 points (Max. 1600 points) \n &bull; ACT (American College Testing):\
+      \ 24 points (Max. 36 points) \n &bull; BTEC Level 3 Extended Diploma: Math &\
+      \ science subjects are grade B or above, other subjects are not below grade\
+      \ C \n You can click here for more information http://oisp.hcmut.edu.vn/en/admission/admission-requirements/"
+  utter_international_student_support_accommodate:
+  - text: "Students who get admission to Ho Chi Minh City University of Technology\
+      \  can choose to stay in the Dormitory of the University or stay in suitable\
+      \ hostels. \n &bull; 1. Dormitory of Ho Chi Minh City \n University of Technology\
+      \ The Dormitory is located 1 kilometer far from the main downtown campus. Students’\
+      \ room are equipped with beds & matress, tables & bookshelves, air-conditioner\
+      \ (depending on room types), internet access, a microwave oven, a fridge, safe\
+      \ cases, a private bathroom, etc. \n Dormitory fee: around 100 USD/ month (depending\
+      \ on room types \n See more on our Dormitory http://oisp.hcmut.edu.vn/en/study-environment/dormitory/\
+      \ \n &bull; 2. Other housing options Students can browse for other options around\
+      \ the University area through Booking.com, Hostelworld.com, AirBnB.com, etc."
+  utter_international_student_support_airport_pickup:
+  - text: "Free airport pick-up service is provided for all international students\
+      \ admitted to Ho Chi Minh City University of Technology when students arrive\
+      \ at Ho Chi Minh City – Tan Son Nhat International Airport with conditions:\
+      \ \n Students contact the International Admission Department as soon as students\
+      \ have flight tickets to Vietnam, or at least 10 days in advance. \n Flight\
+      \ arrival time is between 6:30 AM – 8:00 PM. \n Under some circumstances that\
+      \ Ho Chi Minh City University of Technology couldn’t arrange to pick students\
+      \ up at the University, we will support students getting to their accommodation\
+      \ after arrival \n For more information: http://oisp.hcmut.edu.vn/en/admission/supporting-services-for-international-students/"
+  utter_international_student_support_overview:
+  - text: "Moving into Ho Chi Minh City and studying at Ho Chi Minh City University\
+      \ of Technology is a whole new experience for students. \n We are excited to\
+      \ welcome and assist students during their study in the university regarding\
+      \ \n &bull; Visa, \n &bull; Accommodation \n &bull; Arrival service. \n You\
+      \ can click here for more detail: http://oisp.hcmut.edu.vn/en/admission/supporting-services-for-international-students/\n\
+      \nAsk me if you know to know more information about VISA, ACCOMMODATION SUPPORT\
+      \ or AIR-PORT PICKUP"
+  utter_international_student_support_visa:
+  - text: "&bull; 1. Visa Approval Letter \n Students who get admission to Ho Chi\
+      \ Minh City University of Technology are supported to get the Visa Approval\
+      \ Letter from the Vietnam Immigration Department. With the letter, students\
+      \ can apply for visa to Vietnam from their countries of residence easier. \n\
+      \ &bull; 2. Visa Exemption to Vietnam \n Students, parents and partners wanting\
+      \ to visit Ho Chi Minh City University of Technology can acquire visa to Vietnam\
+      \ by following instructions of the Vietnam Ministry of Foreign Affairs. \n Residents\
+      \ of certain countries are exempted for Visa to Vietnam. \n Read more on http://oisp.hcmut.edu.vn/en/admission/supporting-services-for-international-students/visa-exemption-to-vietnam-site-visits-at-HCMUT%20-%20Bach%20khoa/"
+  utter_its_nice_to_meet_you:
+  - text: It's nice to meet you, {PERSON}.
+  - text: Nice to meet you, {PERSON}.
+  utter_liberal_art_overview:
+  - text: "Liberal Arts & Social Courses aims at training & enhancing students’ capabilities\
+      \ in the area of art & social sciences, which supports students in discovering\
+      \ theirselves, approaching liberal art spirits, integrating to the lastest trends\
+      \ of the world. \n The courses are organized once a week ( 2 – 3 hours per week)\
+      \ in the Pre-University Semester: \n Journalism, Music, Stage Performance &\
+      \ Drama, Photography, Modern Dance, Master of Ceremonies, Critical Thinking,\
+      \ General Philosophy, Reading & Writing Research Report, History of World Civilization,\
+      \ Vietnamese Cultures, Presentation – Eloquence, Management Skills for Engineers,\
+      \ Thinking & Scientific Methods…"
+  utter_master_program_overview:
+  - text: "Ho Chi Minh City University of Technology , at the present, offers only\
+      \ 1 Master’s degree program for international students: Executive Master of\
+      \ Business Administration – Management Consulting International (EMBA – MCI)\
+      \ program, which is launched under the cooperation with the University of Applied\
+      \ Sciences and Arts Northwestern Switzerland, a learning brand in the higher\
+      \ education segment in Switzerland. \n PROGRAM SUMMARY \n &bull; Duration: 2\
+      \ years. \n &bull; Medium of instruction: English. \n &bull; Application Fee:\
+      \ 70 USD \n &bull; Tuition Fee: 13,500 USD \n &bull;  Aid: Available"
+  utter_mechanical_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_mechanical_engineering_career_opportunity:
+  - text: "After graduating the Mechanical Engineering from Ho Chi Minh City University\
+      \ of Technology  (formerly Ho Chi Minh City University of Technology), engineers\
+      \ can work for international companies in all related field of combustion, noise,\
+      \ pollution and vibration control, production planning, water supply, product\
+      \ design, aeronautics, bioengineering, mechanics and materials, mechatronics,\
+      \ micro- and nano-engineering, sustainability, thermal sciences, etc. \n There\
+      \ are many mechanical engineers working for big international companies in many\
+      \ fields such as Microsoft, GE, Apple, Samsung, Nokia, Honda, Ford Motor Company,…\
+      \  "
+  utter_mechanical_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/mechanical-engineering/
+  utter_mechanical_engineering_overview:
+  - text: "Mechanical Engineering program at University of Technology provides students\
+      \ with solid knowledge of mechanical, electrical, computer system, software\
+      \ engineering, and advanced knowledge about the practice of modern industrial\
+      \ environment.\n\nI can also provide information about \n &bull; Admission process\
+      \ \n &bull; Tuition fee \n &bull; Career opportunity \n &bull; Transfer opportunity\
+      \ \n &bull; Curriculum structure \n Just feel free to ask me !"
+  utter_mechanical_engineering_summary:
+  - text: "Bachelor of Engineering (Mechanical) \n Duration: 4 years \n No. of credits:\
+      \ 152 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_mechanical_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Mechanical Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to the following partner universities in Australia and USA the\
+      \ later 02 years to complete their study for Bachelor degree: \n &bull; The\
+      \ University of Technology, Sydney (Australia) \n &bull; Griffith University\
+      \ (Australia) \n &bull; The Catholic University of America (USA) \n &bull; The\
+      \ official bachelor degree is awarded by the partner university. \n The advantage\
+      \ of this option is that the student can save about 50% total fee (tuition fee\
+      \ and living expense) compared to studying for full 4 years in Australia to\
+      \ get a Bachelor Degree."
+  utter_mechanical_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_mechatronic_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_mechatronic_engineering_career_opportunity:
+  - text: "After graduating the Mechatronic Engineering from Ho Chi Minh City University\
+      \ of Technology  (formerly Ho Chi Minh City University of Technology), engineers\
+      \ can work in all related areas but mostly include: \n The heavy industry, manufacturing\
+      \ \n Companies work in automatic equipment and aviation field \n Companies manufactures\
+      \ high-end devices and robotic"
+  utter_mechatronic_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/mechatronic-engineering/
+  utter_mechatronic_engineering_overview:
+  - text: "Mechatronic Engineering Program at University of Technology provides students\
+      \ solid knowledge of mechanical, electrical, computer system, software engineering,\
+      \ and advanced knowledge about the practice of modern industrial environment.\
+      \ \n Our program emphasizes the design of electro-mechanical devices ranging\
+      \ from large-scale automated manufacturing systems to micro-scale sensors and\
+      \ instrumentation.\n\nI can also provide information about \n &bull; Admission\
+      \ process \n &bull; Tuition fee \n &bull; Career opportunity \n &bull; Transfer\
+      \ opportunity \n &bull; Curriculum structure \n Just feel free to ask me !"
+  utter_mechatronic_engineering_summary:
+  - text: "Bachelor of Engineering (Mechatronic) \n Duration: 4 years \n No. of credits:\
+      \ 150 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_mechatronic_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Mechatronic Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to our partner universities in Australia the later 02 years to\
+      \ complete their study for Bachelor degree: \n &bull; The University of Technology,\
+      \ Sydney (Australia) \n &bull; Griffith University (Australia) \n &bull; The\
+      \ official bachelor degree is awarded by the partner university. \n The advantage\
+      \ of this option is that the student can save about 50% total fees (tuition\
+      \ fee and living expenses) compared to studying for full 4 years in Australia\
+      \ to get a Bachelor Degree."
+  utter_mechatronic_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_more_automotive_engineering:
+  - text: Placeholder.
+  utter_more_business_administration:
+  - text: Placeholder.
+  utter_more_chemical_engineering:
+  - text: Placeholder.
+  utter_more_civil_engineering:
+  - text: Placeholder.
+  utter_more_computer_engineering:
+  - text: 'For more information about Computer Engineering, please visit: haha'
+  utter_more_computer_science:
+  - text: 'For more information about Computer Science, please visit: haha'
+  utter_more_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_environmental_engineering:
+  - text: Placeholder.
+  utter_more_food_engineering:
+  - text: 'For more information about Food Engineering, please visit: haha'
+  utter_more_how_automotive_engineering:
+  - text: Placeholder.
+  utter_more_how_business_administration:
+  - text: Placeholder.
+  utter_more_how_chemical_engineering:
+  - text: Placeholder.
+  utter_more_how_civil_engineering:
+  - text: Placeholder.
+  utter_more_how_computer_engineering:
+  - text: 'You can ask me: How can I apply for Computer Engineering scholarship?'
+  utter_more_how_computer_science:
+  - text: 'You can ask me: How can I apply for Computer Science scholarship?'
+  utter_more_how_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_how_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_how_environmental_engineering:
+  - text: Placeholder.
+  utter_more_how_food_engineering:
+  - text: 'You can ask me: How can I apply for Food Engineering scholarship?'
+  utter_more_how_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_how_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_how_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_how_transportation_engineering:
+  - text: Placeholder.
+  utter_more_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_transportation_engineering:
+  - text: Placeholder.
+  utter_more_what_automotive_engineering:
+  - text: Placeholder.
+  utter_more_what_business_administration:
+  - text: Placeholder.
+  utter_more_what_chemical_engineering:
+  - text: Placeholder.
+  utter_more_what_civil_engineering:
+  - text: Placeholder.
+  utter_more_what_computer_engineering:
+  - text: 'You can ask me: What is Computer Engineering? What qualifications do you
+      need to study Computer Engineering?'
+  utter_more_what_computer_science:
+  - text: "You can ask me: What is Computer Science? \n What qualifications do you\
+      \ need to study Computer Science?"
+  utter_more_what_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_what_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_what_environmental_engineering:
+  - text: Placeholder.
+  utter_more_what_food_engineering:
+  - text: "You can ask me: What is Food Engineering? \n What qualifications do you\
+      \ need to study Food Engineering?"
+  utter_more_what_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_what_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_what_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_what_transportation_engineering:
+  - text: Placeholder.
+  utter_more_when_automotive_engineering:
+  - text: Placeholder.
+  utter_more_when_business_administration:
+  - text: Placeholder.
+  utter_more_when_chemical_engineering:
+  - text: Placeholder.
+  utter_more_when_civil_engineering:
+  - text: Placeholder.
+  utter_more_when_computer_engineering:
+  - text: 'You can ask me: When can I apply for studying Computer Engineering?'
+  utter_more_when_computer_science:
+  - text: 'You can ask me: When can I apply for studying Computer Science?'
+  utter_more_when_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_when_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_when_environmental_engineering:
+  - text: Placeholder.
+  utter_more_when_food_engineering:
+  - text: 'You can ask me: When can I apply for studying Food Engineering?'
+  utter_more_when_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_when_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_when_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_when_transportation_engineering:
+  - text: Placeholder.
+  utter_more_where_automotive_engineering:
+  - text: Placeholder.
+  utter_more_where_business_administration:
+  - text: Placeholder.
+  utter_more_where_chemical_engineering:
+  - text: Placeholder.
+  utter_more_where_civil_engineering:
+  - text: Placeholder.
+  utter_more_where_computer_engineering:
+  - text: 'You can ask me: Where is the department of Computer Engineering in the
+      university?'
+  utter_more_where_computer_science:
+  - text: 'You can ask me: Where is the department of Computer Science in the university?'
+  utter_more_where_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_where_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_where_environmental_engineering:
+  - text: Placeholder.
+  utter_more_where_food_engineering:
+  - text: 'You can ask me: Where is the department of Food Engineering in the university?'
+  utter_more_where_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_where_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_where_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_where_transportation_engineering:
+  - text: Placeholder.
+  utter_more_who_automotive_engineering:
+  - text: Placeholder.
+  utter_more_who_business_administration:
+  - text: Placeholder.
+  utter_more_who_chemical_engineering:
+  - text: Placeholder.
+  utter_more_who_civil_engineering:
+  - text: Placeholder.
+  utter_more_who_computer_engineering:
+  - text: 'You can ask me: Who can study Computer Engineering?'
+  utter_more_who_computer_science:
+  - text: 'You can ask me: Who can study Computer Science?'
+  utter_more_who_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_who_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_who_environmental_engineering:
+  - text: Placeholder.
+  utter_more_who_food_engineering:
+  - text: 'You can ask me: Who can study Food Engineering?'
+  utter_more_who_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_who_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_who_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_who_transportation_engineering:
+  - text: Placeholder.
+  utter_more_why_automotive_engineering:
+  - text: Placeholder.
+  utter_more_why_business_administration:
+  - text: Placeholder.
+  utter_more_why_chemical_engineering:
+  - text: Placeholder.
+  utter_more_why_civil_engineering:
+  - text: Placeholder.
+  utter_more_why_computer_engineering:
+  - text: 'You can ask me: Why should I study Computer Engineering?'
+  utter_more_why_computer_science:
+  - text: 'You can ask me: Why should I study Computer Science?'
+  utter_more_why_electrical_electronic_engineering:
+  - text: Placeholder.
+  utter_more_why_environmental_and_technology_management:
+  - text: Placeholder.
+  utter_more_why_environmental_engineering:
+  - text: Placeholder.
+  utter_more_why_food_engineering:
+  - text: 'You can ask me: Why should I study Food Engineering?'
+  utter_more_why_mechanical_engineering:
+  - text: Placeholder.
+  utter_more_why_mechatronic_engineering:
+  - text: Placeholder.
+  utter_more_why_petroleum_engineering:
+  - text: Placeholder.
+  utter_more_why_transportation_engineering:
+  - text: Placeholder.
+  utter_other_question:
+  - text: Let me know if you have any other question.
+  utter_partner_university:
+  - text: 'You can view Partner University here: http://oisp.hcmut.edu.vn/en/partner-universities/'
+  utter_petroleum_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_petroleum_engineering_career_opportunity:
+  - text: "Graduates can work in either Vietnamese or foreign petroleum companies,\
+      \ including: \n &bull; The subsidiaries of Petrovietnam – Vietnam Oil and Gas\
+      \ Group (PVEP, PVD, PTSC, PIDC, VPI…) \n &bull; The joint ventures and the joint\
+      \ operations (VSP, JVPC, Petronas, Cuu Long JOC, Hoang Long JOC, Universal JOC,\
+      \ Truong Son JOC …) \n &bull; Multinational petroleum corporations (BP, Unocal,\
+      \ Exxon Mobile …), international petroleum technical service corporations (Schlumberger,\
+      \ BJ, Halliburton, GEOSERVICES, Baker Hughes, Weatherford, …) \n &bull; Universities,\
+      \ Institutes of Petroleum, drilling and groundwater extraction enterprises,\
+      \ Provincial Department of Science and Technology – Environment, Department\
+      \ of Agriculture and Rural Development, Provincial Department of Industry)"
+  utter_petroleum_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/petroleum-engineering/
+  utter_petroleum_engineering_overview:
+  - text: "Petroleum Engineering program features studies in physics, chemistry, mathematics,\
+      \ geology, economics and other specialist petroleum engineering topics. \n Students\
+      \ will be prepared for petroleum industry and its related fields such as drilling,\
+      \ exploitation, petroleum production, reservoir engineering and transportation\
+      \ of oil, natural gas and petroleum economics, etc.\n\nI can also provide information\
+      \ about \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_petroleum_engineering_summary:
+  - text: "Bachelor of Engineering (Petroleum) \n Duration: 4 years \n No. of credits:\
+      \ 144 credits \n Medium of instruction: English \n Tuition fee: approx. 16,700\
+      \ USD*"
+  utter_petroleum_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Petroleum Engineering from\
+      \ University of Technology . \n Option 2: \n After completing 02 years at University\
+      \ of Technology , students with financial and academic eligibility may transfer\
+      \ to the University of Adelaide (ADL), Australia the later 02 year to complete\
+      \ their study for Bachelor degree. The official bachelor degree is awarded by\
+      \ the University of Adelaide (ADL), Australia \n The advantage of this option\
+      \ is that the student can save about 50% total fee (tuition fee and living expense)\
+      \ compared to studying for full 4 years in Australia to get a Bachelor Degree\
+      \ awarded."
+  utter_petroleum_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_pre_university:
+  - text: "Pre-University semester is compulsory for all students (both locals & internationals)\
+      \ applying for study programs of which the medium of instruction is English.\
+      \ \n The program is to equip students with academic preparation, soft-skills\
+      \ & studying skills which are essential and efficient for studying in university,\
+      \ as well as applicable in future career path.\n\nJust feel free to ask me if\
+      \ you want to know more about ENGLISH COURSE, SOFT COURSE or LIBARAL ART COURSE\
+      \ !"
+  utter_pre_university_overview:
+  - text: "Pre-University semester is compulsory for all students (both locals & internationals)\
+      \ applying for study programs of which the medium of instruction is English.\n\
+      \n The program is to equip students with academic preparation, soft-skills &\
+      \ studying skills which are essential and efficient for studying in university,\
+      \ as well as applicable in future career path."
+  utter_sk_camp:
+  - text: A two-day camping trip involve various activities and events for freshmen,
+      not only to relax but also to connect with more friends, putting the skills
+      learned into practice.
+  utter_sk_community_project:
+  - text: Students plan, execute & manage their own projects of which the benefits
+      are enough impactful. Thus, students are challenged & enhance their skills.
+  utter_sk_overview:
+  - text: "The course aims to prepare students with essential skills, such as communication\
+      \ skills, teamwork skills, presentation skills, writing skills, time management\
+      \ skills, project management skills, studying skills, problem-solving skills…\
+      \ \n &bull; To help students comprehend and apply effective study, communication\
+      \ and work skills through class discussion, extra curriculum activities such\
+      \ as OISP Camp, Community Project, Social Topic Discussion and Seminars \n &bull;\
+      \ To develop students’ confidence, enhance their ability to communicate professionally\
+      \ and to foster civilized, harmonized manner \n &bull; To cultivate and nurture\
+      \ students’ ethics, social awareness, social responsibility and global mindset.\n\
+      \nAsk me if you know to know more information about OISP CAMP, COMMUNITY PROJECT\
+      \ or PRESENT CONTEST"
+  utter_sk_presentation_contest:
+  - text: Students reports & presents their projects, including ideas, process, results,
+      difficulties and learning points.
+  utter_study_program:
+  - text: "We have 4 differences study programs for international students: \n &bull;\
+      \ BACHELOR PROGRAM: Undergraduate Admission – open for all students who complete\
+      \ their high school study. \n &bull; PRE – UNIVERSITY: The Pre-University semester\
+      \ is compulsory to all students who are admitted to bachelor’s degree programs\
+      \ \n &bull; STUDENT EXCHANGE: Student in universities around the world can apply\
+      \ for 1 to 2 semesters at Ho Chi Minh City University of Technology . \n &bull;\
+      \ MASTER PROGRAM: At the present, we offer 01 master program for international\
+      \ students: Executive Master of Business Administration in Management Consulting\
+      \ International.\n\nJust feel free to ask me if you want to know more about\
+      \ our BACHHELOR PROGRAM, MASTER PROGRAM, EXCHANGE PROGRAM or PRE-UNIVERSITY\
+      \ PROGRAM!"
+  utter_suggest_after_international_student_support_overview:
+  - text: Ask me if you know to know more information about VISA, ACCOMMODATION SUPPORT
+      or AIR-PORT PICKUP.
+  utter_suggest_yn_international_student_support_overview:
+  - text: We also have a lot of support for international sutudent. Do you want to
+      know?
+  utter_suggest_yn_study_program:
+  - text: Do you want to know more about our study program ?
+  utter_transportation_engineering_admission_period:
+  - text: "Ho Chi Minh City University of Technology  receives applications to study\
+      \ Bachelor’s degree programs all year round. \n Students complete the online\
+      \ application form here http://oisp.hcmut.edu.vn/en/admission/apply-online/\
+      \ and submit the required documents to the International Admission Department\
+      \ of the University. \n Read more at http://oisp.hcmut.edu.vn/en/admission/"
+  utter_transportation_engineering_career_opportunity:
+  - text: "Opportunities for students graduating with Bridge and Highway Engineering\
+      \ Degree are expected to increase in the next decades. \n The job varies depending\
+      \ on the nature of the transport system and the size and type of employer. Graduates\
+      \ may generally involve in analyzing data, identifying problems and solving\
+      \ them with innovative solutions. They may also develop new roads and design\
+      \ traffic patterns. Besides that, supervision of transportation construction\
+      \ is usually included in transportation engineer tasks. \n Some of the popular\
+      \ jobs in Bridge and Highway Engineering are listed, but not restricted to,\
+      \ as the following: \n &bull; Construction Engineer: working onsite to manage\
+      \ the construction and to ensure that a particular project is on schedule, is\
+      \ built according to the design and is safe for the workers involved. \n &bull;\
+      \ Transportation Planner: planning to build transportation roadways and facilities\
+      \ together with balancing the needs and concerns of the public with the demands\
+      \ of the project. \n &bull; Transportation Designer: Designing transportation\
+      \ projects considering the cost and the impact to the surrounding environment.\
+      \ \n &bull; Graduates can become consultants for transportation constructions\
+      \ or lecturers in colleges and universities as well."
+  utter_transportation_engineering_curriculum_structure:
+  - text: Read here http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/transportation-engineering/
+  utter_transportation_engineering_overview:
+  - text: "Bridge and Highway Engineering is the application of technology and scientific\
+      \ principles to the planning, functional design, operation and management of\
+      \ facilities to provide for the safe, efficient, and environmentally compatible\
+      \ movement of people and goods. \n Students will develop knowledge and skills\
+      \ in the planning, design, construction and implementation of building and infrastructure\
+      \ facilities specialized in roadways and bridges.\n\nI can also provide information\
+      \ about \n &bull; Admission process \n &bull; Tuition fee \n &bull; Career opportunity\
+      \ \n &bull; Transfer opportunity \n &bull; Curriculum structure \n Just feel\
+      \ free to ask me !"
+  utter_transportation_engineering_summary:
+  - text: "Bachelor of Engineering (Transportation) \n Duration: 4 years \n No. of\
+      \ credits: 140 credits \n Medium of instruction: English \n Tuition fee: approx.\
+      \ 16,700 USD*"
+  utter_transportation_engineering_transfer_opportunity:
+  - text: "Students have 2 options: \n Option 1: \n Students study at University of\
+      \ Technology for 4 years and get the Bachelor of Automative Engineering awarded\
+      \ by University of Technology . \n Option 2: \n After completing 02 years at\
+      \ University of Technology , students with financial and academic eligibility\
+      \ may transfer to our partner universities the later 02 years to complete their\
+      \ study for Bachelor degree. The official bachelor degree is awarded by the\
+      \ partner universities. \n University of Technology is currently working to\
+      \ associate the program with our partner universities in USA and Australia.\
+      \ The information will be updated here soon."
+  utter_transportation_engineering_tuition_fee:
+  - text: The annual tuition fee is around 3,600 USD. The exact amount depends on
+      the number of credits students register to study each semester. Please see the
+      tuition fee structure in the link here https://oisp.hcmut.edu.vn/en/admission/fees-scholarships/
+  utter_university_contact:
+  - text: "Here is our contact infomation: \n Address: 268 Ly Thuong Kiet Street,\
+      \ Ward 14, District 10, Ho Chi Minh City, Vietnam. \n A4 Building, Floor 3,\
+      \ Room 306. \n Tel: +84 28 7300 4183 | Admission WhatsApp: +84 8 9916 9961 \n\
+      \ Email: admission@oisp.edu.vn"
+  utter_university_history:
+  - text: 'Click here for more detail: http://oisp.hcmut.edu.vn/en/'
+  utter_university_overview:
+  - text: "Ho Chi Minh City University of Technology offers a broad array of multidisciplinary\
+      \ programs and specializations with 33 undergraduate majors, 41 master programs\
+      \ and 41 doctoral programs, \n enrolls more than 25.500 students of all categories\
+      \ and employs nearly 1.000 highly-educated lecturers and professors graduating\
+      \ from the top universities all over the world, \n provides study programs from\
+      \ undergraduate level to doctorate level in various majors ( click here for\
+      \ detail http://oisp.hcmut.edu.vn/en/study-programs/bachelor-degree/ ) \n For\
+      \ international students, Ho Chi Minh City University of Technology offer bachelor’s\
+      \ degree & master’s degree study programs of which the medium of instruction\
+      \ is English. Click here for more information: http://oisp.hcmut.edu.vn/en/study-environment/why-study-in-ho-chi-minh-city-university-of-technology-bach-khoa/"
+  utter_why_vietnam:
+  - text: "Vietnam is one of the most dynamic emerging countries in Southeast Asiaregion.\
+      \ \n This very first aim of the programs taught in English was to provide international\
+      \ study environments for Vietnamese students as well as to prepare them English\
+      \ & skills for future integration. With the fast growing in economy and globalization,\
+      \ leading universities and institutions has started to recruit international\
+      \ students to come and study in Vietnam, which make the country comes closer\
+      \ to multi-culturalization and integration. \n What makes Vietnam a ultimate\
+      \ destination for pursuing higher education? Read more below! \n &bull; Broad\
+      \ ranges of study programs accredited by prestigious organization. \n &bull;\
+      \ Visa Support. \n &bull; Socio - political stability and safety. \n &bull;\
+      \ Exquisite cuisines & multi-cultural activities. \n &bull; Spectacular modern\
+      \ & ancient attractions. Click here for more detail: http://oisp.hcmut.edu.vn/en/study-environment/why-study-in-vietnam/"
